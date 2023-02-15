@@ -14,13 +14,14 @@ h1 {
 .team {
     text-align: center;
     color: #ffffff;
-    margin-top:24vh;
+    margin-top: 24vh;
 }
 
 .container {
     position: relative;
     width: 20%;
     float: left;
+
 
 }
 
@@ -60,4 +61,8 @@ h1 {
 
 #hoss {
     background-color: #3b277e;
+}
+
+#adam {
+    background-color: teal;
 }
