@@ -9,20 +9,24 @@ body {
 h1 {
     text-align: center;
     color: #ffffff;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
 }
 
 .team {
     text-align: center;
     color: #ffffff;
-    margin-top: 24vh;
+    margin-top: 16vh;
 }
 
 .container {
     position: relative;
     width: 20%;
     float: left;
-
-
 }
 
 .container:hover .overlay {
@@ -66,11 +70,22 @@ h1 {
 #adam {
     background-color: teal;
 }
+
 #sara {
     background-color: rgb(18, 53, 130);
 }
 
+<<<<<<< HEAD
 #marina
 {
 background-color: bisque(18, 53, 130);
+=======
+#marina {
+    background-color: blueviolet;
+
+}
+
+#yehia {
+    background-color: rgb(186, 37, 37);
+>>>>>>> b97a4f7a50b614454e4c23a8f5e9ebd97dfba7bb
 }
