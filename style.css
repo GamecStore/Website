@@ -20,7 +20,7 @@ h2 {
 .team {
     text-align: center;
     color: #ffffff;
-    margin-top: 24vh;
+    margin-top: 20vh;
 }
 
 .container {
@@ -76,11 +76,12 @@ h2 {
 #sara {
     background-color: rgb(18, 53, 130);
 }
-#marina
-{
- background-color: blueviolet;
-   
+
+#marina {
+    background-color: blueviolet;
+
 }
+
 #yehia {
     background-color: rgb(186, 37, 37);
 }
