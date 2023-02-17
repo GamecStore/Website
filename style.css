@@ -141,20 +141,11 @@ a {
     position: relative;
     text-decoration: none;
   }
-  
-  a::after {
+a::after {
     border-top: .1em solid #2F56B0;
     content: "";
     position: absolute;
       right: 0;
       bottom: .14em;
       left: 0;
-  }
- 
-  
- 
-  
-
-
-
-
+}
