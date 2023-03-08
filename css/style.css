@@ -1,0 +1,24 @@
+* {
+    font-family: "Barlow", Helvetica, sans-serif;
+}
+
+
+.text-bg-dark {
+    background-color: #121212!important;
+}
+
+.menu input {
+    margin-left: 10px;
+}
+
+input {
+    background-color: #222!important;
+    border-color: #333!important;
+    border-radius: 20px!important;
+    color: #fff!important;
+}
+
+::placeholder {
+    color: #888!important;
+    font-size: 14px;
+}
