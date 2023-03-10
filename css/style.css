@@ -145,7 +145,7 @@ a:hover a:focus {
     border: none;
 }
 
-.carImage{
+.carImage {
     height: 600px;
     object-fit: contain;
 }
