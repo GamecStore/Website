@@ -151,10 +151,25 @@ a:hover a:focus {
     padding-left: 0;
 }
 
-
-
-.carImage {
-
+.carImage{
     height: 600px;
     object-fit: contain;
+}
+
+.carImage:hover{
+    color: blue;
+
+}
+
+.text{
+    color: #fff;
+}
+h5{
+    font-weight: bold;
+}
+.borderText{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    margin-bottom: 0%;
 }
