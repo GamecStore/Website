@@ -96,18 +96,15 @@ ul {
 .footer-wedget ul li a:hover {
     color: red;
 }
-
 .footer-wedget .footer-newslatter p {
     color: #b7b7b7;
 }
-
 .footer-wedget .footer-newslatter form {
 
     position: relative;
-
 }
-
-.footer-wedget .footer-newslatter form input {
+.footer-wedget .footer-newslatter form input 
+{
     width: 100%;
     font-size: 15px;
     color: #ffffffff;
@@ -115,6 +112,4 @@ ul {
     border: none;
     padding: 15px;
     border-bottom: 2px solid #ffffffff;
-
-
 }
