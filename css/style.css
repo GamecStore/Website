@@ -134,6 +134,7 @@ a:hover a:focus {
     color: #b7b7b7;
 
 }
+
 .footer-wedget .footer-newslatter form button {
     color: #b7b7b7;
     font-size: 16px;
@@ -144,11 +145,16 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
-.carousel-item
-{
-    width :100%;
+
+.carousel-item {
+    width: 100%;
     padding-left: 0;
 }
 
 
 
+.carImage {
+
+    height: 600px;
+    object-fit: contain;
+}
