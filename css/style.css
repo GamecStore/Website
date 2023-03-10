@@ -45,6 +45,20 @@ ul {
 
 }
 
+input:focus {
+    outline: none;
+
+
+}
+
+a:hover a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+
+}
+
+
 .footer {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
@@ -96,15 +110,17 @@ ul {
 .footer-wedget ul li a:hover {
     color: red;
 }
+
 .footer-wedget .footer-newslatter p {
     color: #b7b7b7;
 }
+
 .footer-wedget .footer-newslatter form {
 
     position: relative;
 }
-.footer-wedget .footer-newslatter form input 
-{
+
+.footer-wedget .footer-newslatter form input {
     width: 100%;
     font-size: 15px;
     color: #ffffffff;
@@ -113,3 +129,26 @@ ul {
     padding: 15px;
     border-bottom: 2px solid #ffffffff;
 }
+
+.footer-wedget .footer-newslatter form input ::placeholder {
+    color: #b7b7b7;
+
+}
+.footer-wedget .footer-newslatter form button {
+    color: #b7b7b7;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+.carousel-item
+{
+    width :100%;
+    padding-left: 0;
+}
+
+
+
