@@ -182,3 +182,43 @@ h5{
     transform: translate(-50%, -50%);
     text-align: center;
 }   
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+.card{
+    margin:0.5cm;
+    width:calc(100%/3);
+    background-color: #121212;
+}
+.image-wrapper{
+    height:22vw;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.game-title{
+    font-weight: bold;
+    font-size: large;
+    color:#fff;
+}
+.game-price{
+    color:#fff;
+}
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
