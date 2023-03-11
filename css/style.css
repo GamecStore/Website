@@ -318,3 +318,31 @@ h5 {
 .carousel-inner {
     padding: 1em;
 }
+.alignleft,.alignright{
+    color: #fff;
+    font-size: 20px;
+}
+.card-header{
+    color:#fff;
+    font-size: 50px;
+}
+.btn-primary{
+    font-size: 17px;
+    font-weight:bold;
+    color: #fff;
+    background-color:dodgerblue;
+    padding: 15px 140px;
+    
+    /* display:flex; */
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.line {
+    height: 0.3px;
+    background: #b5b1b1e5;
+    margin-bottom: 10px;
+  }
