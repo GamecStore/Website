@@ -145,6 +145,8 @@ a:hover a:focus {
     border: none;
 }
 
+/*slideshow*/
+
 .carImage {
     height: 600px;
     object-fit: contain;
@@ -152,6 +154,85 @@ a:hover a:focus {
 
 h5 {
     font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: Inter,serif;
+    line-height: 0.5;
+}
+
+.rspac{
+    font-family: "Inter",serif;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px; 
+    margin-left: 10px;
+}
+
+.slidepara{
+    font-family: "Inter",serif;
+    display: flex;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 16px;    
+}
+
+.cmText{
+    font-family: "Inter",serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: justify;
+    margin: 45px 0px 0px 10px;
+}
+
+.botbtn{
+    font-family: "Inter",serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 165px;
+}
+
+.pricpara{
+    font-family: "Inter",serif;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+
+    margin: 45px 0px 0px 8px;
+}
+
+.Pbt{
+    font-family: "Inter",serif;
+    line-height: 2;
+    padding: 280px 0px 0px 0px;
+    align-items: center;
+}
+
+.repr{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.botbtn:hover{
+    background-color:  #ffc107;
+}
+
+.cross{
+    text-decoration: line-through;
+    color: #888;
+
 }
 
 .overlay {
@@ -183,6 +264,8 @@ h5 {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/*cards*/
 
 .cards-wrapper {
     display: flex;
