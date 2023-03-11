@@ -209,9 +209,12 @@ h5{
     font-weight: bold;
     font-size: large;
     color:#fff;
+    text-decoration-line: none;
 }
 .game-price{
     color:#fff;
+    text-decoration-line: none;
+
 }
 .card {
     margin: 0 0.5em;
