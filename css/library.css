@@ -8,7 +8,7 @@
     width: 15rem;
 }
 
-img {
+.libraryItem {
     /* transition: filter 0.5s ease; */
     transition: 0.5s ease;
 
@@ -17,7 +17,7 @@ img {
 
 
 .info {
-    display: none;
+    display: relative;
     bottom: 50px;
     position: relative;
     color: white;
@@ -25,20 +25,25 @@ img {
     transition: opacity 0.5s ease;
     margin: 0px;
     padding: 0px;
-
+    bottom: 90px;
+    opacity: 0;
 }
 
-img:hover {
+
+.libraryItem:hover {
     /* filter: blur(2px); */
     transform: scale(1.12);
     opacity: 0.7;
 
 }
 
-img:hover+.info {
-    display: inline;
+.libraryItem:hover.info {
     opacity: 1;
+
+
 }
+
+
 
 #gameSearch {
     border: none;

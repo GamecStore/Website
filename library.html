@@ -14,8 +14,6 @@
 
 <body class="bg-black">
 
-
-
     <!-- Header -->
     <header class="p-3 text-bg-dark menu-fixed">
         <div class="container">
@@ -44,7 +42,53 @@
 
 
     <!-- body -->
-    <div class="container bg-dark my-2 rounded-3">
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-dark p-4">
+                <div class="modal-header text-white">
+                    <h5 class="modal-title" id="staticBackdropLabel">CyberPunk 2077</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+                <div class="modal-body text-center">
+                    <img src="img/300px-Cyberpunk_2077_cover.png" alt="">
+                </div>
+                <div class="d-block text-white">
+                    <p>Play Time: 10hrs <br>Last Played : date</p>
+
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Download</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container bg-dark my-2 rounded-3 my-3">
         <div class="row text-center">
             <div class="">
                 <h1 class="text-white">Library</h1>
@@ -75,12 +119,11 @@
 
         <!-- Games -->
         <div class="row">
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
+            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto libraryItem" style="width: 16.5rem ">
 
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-                <span class="info">Play Time: 10hrs <br>Last Played : date
-                </span>
+                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto btn   " alt="Photo of a game"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+
             </div>
             <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
 

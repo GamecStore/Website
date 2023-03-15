@@ -15,13 +15,6 @@ class validateForm {
 
     }
 
-
-
-
-
-
-
-
 }
 
 
