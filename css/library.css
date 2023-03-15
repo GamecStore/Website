@@ -1,3 +1,7 @@
 .libraryItem {
     object-fit: cover;
 }
+
+.card {
+    width: 15rem;
+}
