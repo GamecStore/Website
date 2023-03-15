@@ -1,7 +1,53 @@
 .libraryItem {
     object-fit: cover;
+
+
 }
 
 .card {
     width: 15rem;
+}
+
+img {
+    /* transition: filter 0.5s ease; */
+    transition: 0.5s ease;
+
+}
+
+
+
+.info {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+    transition: opacity 0.5s ease;
+}
+
+img:hover {
+    /* filter: blur(2px); */
+    transform: scale(1.1);
+    mask-image: none;
+    opacity: 0.8;
+
+}
+
+img:hover.info {
+    display: block;
+    opacity: 1;
+}
+
+#gameSearch {
+    border: none;
+}
+
+#gameSearch:focus {
+    outline: none;
+
 }
