@@ -33,6 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <!----------->
 
   <!-- Bootstrap CSS -->
@@ -73,7 +74,10 @@
     </div>
   </header>
   <!------------>
+
   <!--home page-->
+
+  <!---slideshow--->
   <div class="container-fluid  text-center text-light">
     <div class="row">
       <div class="col-12">
@@ -81,43 +85,145 @@
       </div>
     </div>
   </div>
+
   <div class="container">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-white "
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-white"
           aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button>
       </div>
+
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="img/CrimeBoss.jpg" class="d-block w-100 img-fluid carImage" alt="CrimeBoss image">
+        <div class="carousel-item active" data-bs-interval="4500">
+          <img src="img/CrimeBoss.jpg" class="d-block w-100 img-fluid carImage" alt="Crime Boss image">
           <div class="carousel-caption d-none d-md-block overlay">
             <div class="text">
-              <h5>CrimeBoss</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Crime Boss</h5>
+              <div class ="rspac">Rockay city</div>
+              <div class ="cmText">Coming soon </div>
+              <p class ="slidepara">Crime Boss: Rockay City is an organized crime game combining first-person
+                 shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker
+                  – a man with his sights set on becoming the new King of Rockay City, one crime at a time…</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">starting at <span class="cross">$20.99</span><span class="repr">$16.79</span></p>
+              <button type="button" class = "botbtn">Pre-purchase now</button>
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+
+        <div class="carousel-item" data-bs-interval="4500">
           <img src="img/battlefield.jpg" class="d-block w-100 img-fluid carImage" alt="battlefield image">
           <div class="carousel-caption d-none d-md-block overlay">
             <div class="text">
               <h5>battlefield</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <div class ="rspac">2042</div>
+              <div class ="cmText">Free</div>
+              <p class ="slidepara">Battlefield™ 2042 marks the return to the iconic all-out warfare of
+                 the franchise. Squad up and bring a cutting-edge arsenal into massive-scale battlegrounds, 
+                 set in a near-future world transformed by disorder.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">Sale ends 16/3/2023</p>
+              <button type="button" class = "botbtn">Play for free</button>
             </div>
           </div>
         </div>
-        <div class="carousel-item ">
+
+        <div class="carousel-item" data-bs-interval="4500">
           <img src="img/callofthesea.jpg" class="d-block w-100 img-fluid carImage" alt="call of the sea image">
           <div class="carousel-caption d-none d-md-block overlay">
             <div class="text">
               <h5>Call of the sea</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <div class ="cmText">Free now</div>
+              <p class ="slidepara">Call of the Sea is an otherworldly tale of mystery and love set in the 
+                1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the
+                 hunt for your husband’s missing expedition.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">Sale ends 16/3/2023</p>
+              <button type="button" class = "botbtn">Play for free</button>
             </div>
           </div>
         </div>
+
+        <div class="carousel-item" data-bs-interval="4500">
+          <img src="img/RocketLeague.jfif" class="d-block w-100 img-fluid carImage" alt="Rocket League image">
+          <div class="carousel-caption d-none d-md-block overlay">
+            <div class="text">
+              <h5>Rocket League</h5>
+              <div class ="cmText"> season 10 is out now!</div>
+              <p class ="slidepara">Rocket League is a high-powered hybrid of arcade-style soccer and 
+                vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">SALE ENDS 16/3/2023</p>
+              <button type="button" class = "botbtn">PLay for free</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="4500">
+          <img src="img/redFall.jpg" class="d-block w-100 img-fluid carImage" alt="redfall image">
+          <div class="carousel-caption d-none d-md-block overlay">
+            <div class="text">
+              <h5>Red fall</h5>
+              <div class ="cmText">Coming april 10 </div>
+              <p class ="slidepara">The town of Redfall is under siege by a legion of vampires who have cut 
+                the island off from the outside world. Trapped with a handful of survivors, 
+                slay alone or squad up in open-world FPS action.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">starting at <span class="repr">$40.79</span></p>
+              <button type="button" class = "botbtn">Pre-purchase now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="4500">
+          <img src="img/hogwartsLegacy.jpg" class="d-block w-100 img-fluid carImage" alt="Hogwarts Legacy image">
+          <div class="carousel-caption d-none d-md-block overlay">
+            <div class="text">
+              <h5>Hogwarts Legacy</h5>
+              <div class ="cmText">Out now </div>
+              <p class ="slidepara">Hogwarts Legacy is an immersive, open-world action RPG.
+                 Now you can take control of the action and be at the center of your own adventure in 
+                 the wizarding world.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">starting at <span class="repr">$79.99</span></p>
+              <button type="button" class = "botbtn">Buy now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="4500">
+          <img src="img/fortnite.avif" class="d-block w-100 img-fluid carImage" alt="Fortnite image">
+          <div class="carousel-caption d-none d-md-block overlay">
+            <div class="text">
+              <h5>Fortnite</h5>
+              <div class ="rspac">Rockay city</div>
+              <div class ="cmText">new season </div>
+              <p class ="slidepara">Grab all of your friends and drop into Gamec Games' Fortnite,
+                 a massive 100-player face-off that combines looting, crafting, shootouts and chaos. 
+                 The result is a completely unpredictable competitive online experience that gets bigger 
+                 and even wilder with every new season.</p>          
+            </div>
+            <div class="text Pbt">
+              <p class ="slidepara pricpara">free</p>
+              <button type="button" class = "botbtn">Play for free</button>
+            </div>
+          </div>
+        </div>
+
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -128,6 +234,9 @@
       </button>
     </div>
   </div>
+  <!--------->
+
+  <!------cards------>
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -251,8 +360,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!--------->
   
-  <!--home page-->
   <!--footer-->
   <footer class="footer">
     <div class="container">
