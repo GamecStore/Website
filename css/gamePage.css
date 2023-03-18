@@ -1,0 +1,11 @@
+.carImage {
+    object-fit: cover;
+}
+
+img {
+    object-fit: cover;
+}
+
+.buyButton:hover {
+    background-color: #ffc107;
+}
