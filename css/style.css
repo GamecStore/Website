@@ -10,7 +10,7 @@
     margin-left: 10px;
 }
 
-input {
+footeremail {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -44,7 +44,7 @@ ul {
 
 }
 
-input:focus {
+.footeremail:focus {
     outline: none;
 
 
@@ -57,12 +57,25 @@ a:hover a:focus {
 
 }
 
+.but{
+    color: #fff;
+    background-color: #ffc107;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    height: 43px;
+    width: 100px;
+}
+
+.linb:hover{
+    color: #ffc107;
+}
 
 .footer {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-
 }
 
 .footer {
@@ -345,4 +358,4 @@ h5 {
     height: 0.3px;
     background: #b5b1b1e5;
     margin-bottom: 10px;
-  }
+}
