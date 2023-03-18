@@ -53,3 +53,7 @@
     outline: none;
 
 }
+
+select:focus {
+    outline: none;
+}
