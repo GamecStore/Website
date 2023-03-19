@@ -10,7 +10,7 @@
     margin-left: 10px;
 }
 
-footeremail {
+.footeremail {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -278,6 +278,7 @@ h5 {
     text-align: center;
 }
 
+
 /*cards*/
 
 .cards-wrapper {
@@ -310,7 +311,7 @@ h5 {
 
 .game-title {
     font-weight: bold;
-    font-size: large;
+    font-size: 16px;
     color: #fff;
     text-decoration-line: none;
 }
@@ -318,7 +319,14 @@ h5 {
 .game-price {
     color: #fff;
     text-decoration-line: none;
+}
 
+.game-subtitle{
+    color: gray;
+    text-decoration-line: none;
+}
+.images{
+    height: 100%;
 }
 
 .card {
@@ -345,8 +353,6 @@ h5 {
     color: #fff;
     background-color:dodgerblue;
     padding: 15px 140px;
-    
-    /* display:flex; */
 }
 .alignleft {
 	float: left;
