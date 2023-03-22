@@ -74,371 +74,371 @@ a:hover a:focus {
 }
 
 .but {
-    .but {
-        color: #fff;
-        background-color: #ffc107;
-        letter-spacing: 0.5px;
-        text-align: center;
-        border: none;
-        border-radius: 12px;
-        height: 43px;
-        width: 100px;
-    }
-
-    .linb:hover {
-        .linb:hover {
-            color: #ffc107;
-        }
-
-        .footer {
-            height: 100%;
-            font-family: "Nunito sans ,sans-serif";
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .footer {
-            background-color: #121212;
-            padding-top: 70px;
-        }
-
-        .footer-about {
-            margin-bottom: 30px;
-        }
-
-        .footer-about .footer-logo {
-            margin-bottom: 30px;
-        }
-
-        .footer-about p {
-            color: #b7b7b7;
-            margin-bottom: 30px;
-        }
-
-        .footer-wedget {
-            margin-bottom: 30px;
-        }
-
-        .footer-wedget h6 {
-            color: #fff;
-            font-size: 15px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-        }
-
-        .footer-wedget ul li {
-            line-height: 36px;
-            list-style: none;
-        }
-
-        .footer-wedget ul li a {
-            color: #b7b7b7;
-            font-size: 15px;
-        }
-
-        .footer-wedget ul li a:hover {
-            color: red;
-        }
-
-        .footer-wedget .footer-newslatter p {
-            color: #b7b7b7;
-        }
-
-        .footer-wedget .footer-newslatter form {
-
-            position: relative;
-        }
-
-        .footer-wedget .footer-newslatter form input {
-            width: 100%;
-            font-size: 15px;
-            color: #ffffffff;
-            background: transparent;
-            border: none;
-            padding: 15px;
-            border-bottom: 2px solid #ffffffff;
-        }
-
-        .footer-wedget .footer-newslatter form input ::placeholder {
-            color: #b7b7b7;
-
-        }
-
-        .footer-wedget .footer-newslatter form button {
-            color: #b7b7b7;
-            font-size: 16px;
-            position: absolute;
-            right: 5px;
-            top: 0;
-            height: 100%;
-            background: transparent;
-            border: none;
-        }
-
-        /*slideshow*/
-
-        .carImage {
-            height: 600px;
-            object-fit: contain;
-        }
-
-        h5 {
-            font-weight: bold;
-            font-size: 24px;
-            text-transform: uppercase;
-            font-family: Inter, serif;
-            font-family: Inter, serif;
-            line-height: 0.5;
-        }
-
-        .rspac {
-            font-family: "Inter", serif;
-
-            .rspac {
-                font-family: "Inter", serif;
-                font-size: 11px;
-                color: white;
-                text-transform: uppercase;
-                letter-spacing: 7px;
-                letter-spacing: 7px;
-                margin-left: 10px;
-            }
-
-            .slidepara {
-                font-family: "Inter", serif;
-
-                .slidepara {
-                    font-family: "Inter", serif;
-                    display: flex;
-                    align-items: center;
-                    color: rgb(245, 245, 245);
-                    font-size: 16px;
-                    font-size: 16px;
-                }
-
-                .cmText {
-                    font-family: "Inter", serif;
-
-                    .cmText {
-                        font-family: "Inter", serif;
-                        font-size: 14px;
-                        color: white;
-                        text-transform: uppercase;
-                        line-height: 3;
-                        text-align: justify;
-                        margin: 45px 0px 0px 10px;
-                    }
-
-                    .botbtn {
-                        font-family: "Inter", serif;
-
-                        .botbtn {
-                            font-family: "Inter", serif;
-                            font-size: 12px;
-                            letter-spacing: 0.5px;
-                            text-transform: uppercase;
-                            text-align: center;
-                            border: none;
-                            border-radius: 12px;
-                            background-color: rgb(255, 255, 255);
-                            color: rgb(0, 0, 0);
-                            height: 50px;
-                            width: 165px;
-                        }
-
-                        .pricpara {
-                            font-family: "Inter", serif;
-
-                            .pricpara {
-                                font-family: "Inter", serif;
-                                font-size: 12px;
-                                color: white;
-                                text-transform: uppercase;
-                                display: flex;
-                                text-align: center;
-
-                                margin: 45px 0px 0px 8px;
-                            }
-
-                            .Pbt {
-                                font-family: "Inter", serif;
-
-                                .Pbt {
-                                    font-family: "Inter", serif;
-                                    line-height: 2;
-                                    padding: 280px 0px 0px 0px;
-                                    align-items: center;
-                                }
-
-                                .repr {
-                                    .repr {
-                                        font-weight: bold;
-                                        font-size: 14px;
-                                        padding: 5px;
-                                    }
-
-                                    .botbtn:hover {
-                                        background-color: #ffc107;
-
-                                        .botbtn:hover {
-                                            background-color: #ffc107;
-                                        }
-
-                                        .cross {
-                                            .cross {
-                                                text-decoration: line-through;
-                                                color: #888;
-
-                                            }
-
-                                            .overlay {
-                                                position: absolute;
-                                                top: 0;
-                                                bottom: 0;
-                                                left: 0;
-                                                right: 0;
-                                                height: 100%;
-                                                width: 100%;
-                                                opacity: 0;
-                                                transition: .5s ease;
-                                                background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
-                                                backdrop-filter: blur(10px);
-                                            }
-
-                                            .container:hover .overlay {
-                                                opacity: 1;
-                                            }
-
-                                            .text {
-                                                color: white;
-                                                font-size: 20px;
-                                                position: absolute;
-                                                top: 50%;
-                                                left: 50%;
-                                                -webkit-transform: translate(-50%, -50%);
-                                                -ms-transform: translate(-50%, -50%);
-                                                transform: translate(-50%, -50%);
-                                                text-align: center;
-                                            }
-
-
-                                            /*cards*/
-
-                                            .cards-wrapper {
-                                                display: flex;
-                                                justify-content: center;
-                                            }
-
-                                            .card img {
-                                                max-width: 100%;
-                                                max-height: 100%;
-                                            }
-
-                                            .card {
-                                                margin: 0.5cm;
-                                                width: calc(100%/3);
-                                                background-color: #121212;
-                                            }
-
-                                            .image-wrapper {
-                                                height: 22vw;
-                                                display: flex;
-                                                align-items: center;
-                                                justify-items: center;
-                                            }
-
-                                            .image-wrapper img {
-                                                max-width: 100%;
-                                                max-height: 100%;
-                                            }
-
-                                            .game-title {
-                                                font-weight: bold;
-                                                font-size: 16px;
-                                                color: #fff;
-                                                text-decoration-line: none;
-                                            }
-
-                                            .game-price {
-                                                color: #fff;
-                                                text-decoration-line: none;
-                                            }
-
-                                            .game-subtitle {
-                                                color: gray;
-                                                text-decoration-line: none;
-                                            }
-
-                                            .images {
-                                                height: 100%;
-                                            }
-
-                                            .card {
-                                                margin: 0 0.5em;
-                                                box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-                                                border: none;
-                                                border-radius: 0;
-                                            }
-
-                                            .carousel-inner {
-                                                padding: 1em;
-                                            }
-
-                                            .btn-primary {
-                                                font-size: 15px;
-                                                font-weight: bold;
-                                                color: #fff;
-                                                background-color: dodgerblue;
-                                                padding: 15px 140px;
-                                            }
-
-                                            .alignleft {
-                                                float: left;
-                                                font-size: 18px;
-                                                color: #fff;
-                                            }
-
-                                            .alignright {
-                                                float: right;
-                                                font-size: 18px;
-                                                color: #fff;
-                                            }
-
-                                            .line {
-                                                height: 0.1px;
-                                                background: #b5b1b1e5;
-                                                margin-bottom: 10px;
-                                            }
-
-                                            .header {
-                                                color: #fff;
-                                                font-size: 45px;
-                                                line-height: 40px;
-                                                margin-bottom: 30px;
-
-                                            }
-
-                                            .card-3 {
-                                                background-color: rgb(32, 32, 32);
-                                                max-width: 540px;
-                                            }
-
-                                            .img-fluid {
-                                                margin: 20px;
-                                            }
-
-                                            .game-type {
-                                                align-items: center;
-                                                background-color: rgba(255, 255, 255, 0.1);
-                                                color: rgb(245, 245, 245);
-                                                padding: 5px 10px;
-                                                position: relative;
-                                                border-radius: 4px;
-                                                display: inline-flex;
-                                                flex-direction: row;
-                                                flex-wrap: nowrap;
-                                                -webkit-align-items: center;
-                                                -webkit-box-align: center;
-                                                font-weight: bold;
-                                            }
+
+    color: #fff;
+    background-color: #ffc107;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    height: 43px;
+    width: 100px;
+}
+
+.linb:hover {
+
+    color: #ffc107;
+}
+
+.footer {
+    height: 100%;
+    font-family: "Nunito sans ,sans-serif";
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    background-color: #121212;
+    padding-top: 70px;
+}
+
+.footer-about {
+    margin-bottom: 30px;
+}
+
+.footer-about .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-about p {
+    color: #b7b7b7;
+    margin-bottom: 30px;
+}
+
+.footer-wedget {
+    margin-bottom: 30px;
+}
+
+.footer-wedget h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-wedget ul li {
+    line-height: 36px;
+    list-style: none;
+}
+
+.footer-wedget ul li a {
+    color: #b7b7b7;
+    font-size: 15px;
+}
+
+.footer-wedget ul li a:hover {
+    color: red;
+}
+
+.footer-wedget .footer-newslatter p {
+    color: #b7b7b7;
+}
+
+.footer-wedget .footer-newslatter form {
+
+    position: relative;
+}
+
+.footer-wedget .footer-newslatter form input {
+    width: 100%;
+    font-size: 15px;
+    color: #ffffffff;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    border-bottom: 2px solid #ffffffff;
+}
+
+.footer-wedget .footer-newslatter form input ::placeholder {
+    color: #b7b7b7;
+
+}
+
+.footer-wedget .footer-newslatter form button {
+    color: #b7b7b7;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+
+/*slideshow*/
+
+.carImage {
+    height: 600px;
+    object-fit: contain;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: Inter, serif;
+    font-family: Inter, serif;
+    line-height: 0.5;
+}
+
+.rspac {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    letter-spacing: 7px;
+    margin-left: 10px;
+}
+
+.slidepara {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 16px;
+    font-size: 16px;
+}
+
+.cmText {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: justify;
+    margin: 45px 0px 0px 10px;
+}
+
+.botbtn {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 165px;
+}
+
+.pricpara {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+
+    margin: 45px 0px 0px 8px;
+}
+
+.Pbt {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
+    line-height: 2;
+    padding: 280px 0px 0px 0px;
+    align-items: center;
+}
+
+.repr {
+
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.botbtn:hover {
+    background-color: #ffc107;
+
+
+    background-color: #ffc107;
+}
+
+.cross {
+
+    text-decoration: line-through;
+    color: #888;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    backdrop-filter: blur(10px);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*cards*/
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0.5cm;
+    width: calc(100%/3);
+    background-color: #121212;
+}
+
+.image-wrapper {
+    height: 22vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.game-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.game-price {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.game-subtitle {
+    color: gray;
+    text-decoration-line: none;
+}
+
+.images {
+    height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.btn-primary {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 15px 140px;
+}
+
+.alignleft {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+.alignright {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+}
+
+.line {
+    height: 0.1px;
+    background: #b5b1b1e5;
+    margin-bottom: 10px;
+}
+
+.header {
+    color: #fff;
+    font-size: 45px;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.card-3 {
+    background-color: rgb(32, 32, 32);
+    max-width: 540px;
+}
+
+.img-fluid {
+    margin: 20px;
+}
+
+.game-type {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(245, 245, 245);
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 4px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    font-weight: bold;
+}
