@@ -390,7 +390,9 @@ h5 {
     font-weight: bold;
     color: #fff;
     background-color: dodgerblue;
-    padding: 15px 130px;
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
 }
 
 .alignleft {
@@ -413,8 +415,8 @@ h5 {
 
 .header {
     color: #fff;
-    font-size: 45px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 35px;
     margin-bottom: 30px;
 
 }
@@ -428,24 +430,25 @@ h5 {
     margin: 20px;
 }
 
-.game-type {
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgb(245, 245, 245);
-    padding: 5px 10px;
-    position: relative;
-    border-radius: 4px;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    font-weight: bold;
-}
-
-
-
 .cartImage {
     max-width: 300px;
     max-height: 250px;
 }
+ .game-price{
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .mycart{
+    font-weight:bold;
+    font-size: 50px;
+ }
+.price1{
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: right;
+}
+/* .remove{
+    color: fff;
+    padding-left: 760px;
+} */
