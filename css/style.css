@@ -12,9 +12,9 @@
 .menu input {
     margin-left: 10px;
 }
-.list:hover{
-    color:#ffc107
 
+.list:hover {
+    color: #ffc107
 }
 
 in style.css .user-pic {
@@ -426,31 +426,40 @@ h5 {
 
 .img-fluid {
     margin: 20px;
+    max-height: 160px;
+    max-width: 200px;
 }
 
 .cartImage {
     max-width: 300px;
     max-height: 250px;
 }
- .game-price{
+
+.game-price {
     text-align: right;
     font-size: 15px;
     font-weight: bold;
- }
- .mycart{
-    font-weight:bold;
-    font-size: 50px;
- }
-.price1{
-    font-size: 18px;
-    padding-top: 6px;
-    text-align: right;
 }
-/* .remove{
-    color: fff;
-    padding-left: 760px;
-} */
-/* .sort{
-    color:fff;
-    font-size: 15px;
-} */
+
+.mycart {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.price1 {
+    font-size: 18px;
+    padding-left: 240px;
+
+}
+
+.removeText {
+    text-decoration: underline;
+}
+
+.removeText:hover {
+    text-decoration: none;
+}
+.game-name{
+    padding-left: 15px;
+    font-size: 33px;
+}

@@ -134,9 +134,12 @@ body {
 .form-control {
     border: 1px solid #596280;
     -webkit-border-radius: 2px;
-
     border-radius: 2px;
     font-size: .825rem;
-    background: #1A233A;
-    color: #bcd0f7;
+}
+
+.profimg{
+    border-radius: 550px;
+    width: 12%;
+    margin-top: 9px;
 }
