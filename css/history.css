@@ -182,9 +182,25 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
+.bg{
+    background-color: #212529;
+}
+
 
 /***Body****/
 
 .tablehead{
     text-transform: uppercase;
+}
+
+.tbl{
+    cursor: pointer;
+    width:90%;
+    margin: 0 auto;
+}
+
+tr:hover{
+    scale: 1.01;
+    transition: 0.5s ease;
+    box-shadow: -1px -2px 100px 2px rgb(255, 255, 255);
 }
