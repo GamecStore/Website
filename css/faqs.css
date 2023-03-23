@@ -10,6 +10,24 @@
     margin-left: 10px;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*footer*/
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
 .footeremail {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -24,6 +42,7 @@
 
 p {
     font-size: 15px;
+    font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
     font-weight: 400;
     line-height: 25px;
@@ -43,15 +62,17 @@ ul {
 
 }
 
-/*footer*/
 .footeremail:focus {
     outline: none;
+
+
 }
 
 a:hover a:focus {
     text-decoration: none;
     outline: none;
     color: #ffffff;
+
 }
 
 .but {
@@ -71,7 +92,6 @@ a:hover a:focus {
 
 .footer {
     height: 100%;
-    font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
 }
 
@@ -155,38 +175,4 @@ a:hover a:focus {
     border: none;
 }
 
-
-/*form*/
-.formlayout {
-    border: solid white;
-    background-color: #fff;
-    padding: 30px 60px 100px 30px;
-    margin: 60px;
-}
-
-.containersign {
-    font-family: 'Almarai', sans-serif;
-    display: flex;
-    margin: 80px;
-}
-
-.image {
-    margin: 50px;
-}
-
-
-.asteric {
-    color: red;
-}
-
-.head3 {
-    font-size: 38px;
-    color: #ffc107;
-    padding: 5px;
-    text-align: center;
-}
-
-.acc {
-    color: #212529bf;
-    margin-left: 170px;
-}
+/*footer*/
