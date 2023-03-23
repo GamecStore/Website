@@ -1,9 +1,6 @@
-const links = document.querySelector('.scrol_to');
+const links = document.getElementById('scrol_to');
 const content = document.getElementById('faq');
 
-links.forEach(element => {
-    element.addEventListener("click", () => {
-        const el = document.getElementById(item.getAttribute("data-link"));
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-    })
+links.addEventListener('click', e => {
+    content.scrollIntoView({ behavior: "smooth" });
 });

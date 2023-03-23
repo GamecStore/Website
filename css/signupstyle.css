@@ -19,6 +19,7 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
+
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -189,7 +190,7 @@ a:hover a:focus {
 .image {
     margin: 50px;
 }
-  
+
 
 .asteric {
     color: red;
@@ -203,5 +204,10 @@ a:hover a:focus {
 
 .acc {
     color: #f7f8f8bf;
-    margin-left: 165px;
+}
+
+.bullets {
+    display: flex;
+    align-items: center;
+
 }
