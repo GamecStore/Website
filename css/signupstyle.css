@@ -204,5 +204,10 @@ a:hover a:focus {
 
 .acc {
     color: #f7f8f8bf;
+}
 
+.bullets{
+    display: flex;
+    align-items: center;
+    
 }
