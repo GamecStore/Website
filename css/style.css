@@ -26,7 +26,7 @@ in style.css .user-pic {
 
 
 
-.footeremail {
+.footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -306,7 +306,7 @@ h5 {
     backdrop-filter: blur(10px);
 }
 
-.container:hover .overlay {
+.containerr:hover .overlay {
     opacity: 1;
 }
 
@@ -448,7 +448,7 @@ h5 {
     padding-top: 6px;
     text-align: right;
 }
-.remove{
+/* .remove{
     color: fff;
     padding-left: 760px;
-}
+} */
