@@ -2,14 +2,23 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-.text-bg-dark {
-    background-color: #121212 !important;
-}
-
 .menu input {
     margin-left: 10px;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -41,6 +50,7 @@ a {
 
 ul {
     padding-left: 0;
+
 }
 
 .footeremail:focus {
@@ -53,9 +63,11 @@ a:hover a:focus {
     text-decoration: none;
     outline: none;
     color: #ffffff;
+
 }
 
-.but{
+.but {
+
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -66,7 +78,8 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover{
+.linb:hover {
+
     color: #ffc107;
 }
 
@@ -118,7 +131,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #ffc107;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -161,6 +174,7 @@ a:hover a:focus {
 
 h1{
     color: white;
+    font-family: "Barlow", Helvetica, sans-serif;
     font-size: 50px;
     max-width: 410px;
     width: 100%;
@@ -169,7 +183,6 @@ h1{
     border-radius: 1.5em;
     box-shadow: 0 1px 2px rgba(red, green, blue, alpha);
     text-align: center;
-    font-variant: small-caps;
 }
 
 h2 {
@@ -220,6 +233,7 @@ h2 {
 }
 
 .text {
+    font-family: "Inter", serif;
     color: white;
     position: absolute;
     top: 50%;
@@ -230,7 +244,7 @@ h2 {
     text-align: left;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
-    font-size: 16px;
+    font-size: 17px;
     width: fit-content;
 }
 
@@ -243,11 +257,14 @@ h2 {
 }
 
 #ic1{
-    margin-left: 50px;
+    margin-left: 65px;
+}
+#ic2{
+    margin-right: 65px;
 }
 
 .iconimg{
-    width:50%;
+    width:25%;
 }
 
 .team.image{

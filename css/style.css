@@ -2,10 +2,6 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-/* .text-bg-dark {
-    background-color: #121212 !important;
-} */
-
 .menu input {
     margin-left: 10px;
 }
@@ -23,9 +19,6 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
-
-
-
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -138,7 +131,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #ffc107;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -194,9 +187,6 @@ h5 {
 
 .rspac {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
@@ -207,9 +197,6 @@ h5 {
 
 .slidepara {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     display: flex;
     align-items: center;
     color: rgb(245, 245, 245);
@@ -218,9 +205,6 @@ h5 {
 }
 
 .cmText {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     font-size: 14px;
     color: white;
@@ -231,9 +215,6 @@ h5 {
 }
 
 .botbtn {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -249,9 +230,6 @@ h5 {
 
 .pricpara {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     font-size: 12px;
     color: white;
     text-transform: uppercase;
@@ -261,9 +239,6 @@ h5 {
 }
 
 .Pbt {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     line-height: 2;
     padding: 280px 0px 0px 0px;
@@ -278,9 +253,6 @@ h5 {
 }
 
 .botbtn:hover {
-    background-color: #ffc107;
-
-
     background-color: #ffc107;
 }
 
@@ -304,7 +276,7 @@ h5 {
     backdrop-filter: blur(10px);
 }
 
-.container:hover .overlay {
+.containerr:hover .overlay {
     opacity: 1;
 }
 
@@ -446,7 +418,3 @@ h5 {
     padding-top: 6px;
     text-align: right;
 }
-/* .remove{
-    color: fff;
-    padding-left: 760px;
-} */

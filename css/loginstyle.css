@@ -2,15 +2,24 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-.text-bg-dark {
-    background-color: #121212 !important;
-}
-
 .menu input {
     margin-left: 10px;
 }
 
-.footeremail {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -22,7 +31,7 @@
     font-size: 14px;
 }
 
-p {
+.footertext {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -46,15 +55,19 @@ ul {
 
 .footeremail:focus {
     outline: none;
+
+
 }
 
 a:hover a:focus {
     text-decoration: none;
     outline: none;
     color: #ffffff;
+
 }
 
-.but{
+.but {
+
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -65,7 +78,8 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover{
+.linb:hover {
+
     color: #ffc107;
 }
 
@@ -117,7 +131,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #ffc107;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -154,6 +168,7 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
+
 
 
 /*form*/
