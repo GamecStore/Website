@@ -5,17 +5,13 @@
     box-sizing: border-box;
 }
 
-/* .text-bg-dark {
-    background-color: #121212 !important;
-} */
-
 .menu input {
     margin-left: 10px;
 }
 
-.list:hover {
-    color: #ffc107
-}
+.list {
+    font-size: 14px;
+} 
 
 in style.css .user-pic {
     width: 40px;
@@ -26,18 +22,10 @@ in style.css .user-pic {
 
 a.nav-link {
     color: gray;
-    font-size: 18px;
+    font-size: 15px;
     padding: 0;
 }
 
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #e84118;
-    padding: 2px;
-    flex: none;
-}
 
 input:focus {
     outline: 0px !important;
@@ -47,6 +35,20 @@ input:focus {
 .card-text {
     border: 2px solid #ddd;
     border-radius: 8px;
+}
+
+
+.loginbtn:hover{
+    text-decoration: underline #007bff;
+}
+
+.bgcolor{
+    background-color: #212529;
+}
+
+.lihov:hover{
+    background-color:black;
+    opacity: 0.3;
 }
 
 /*footer*/
@@ -62,7 +64,7 @@ input:focus {
     font-size: 14px;
 }
 
-p {
+.footertext{
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -75,10 +77,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul {
     padding-left: 0;
 
@@ -86,20 +84,15 @@ ul {
 
 .footeremail:focus {
     outline: none;
-
-
 }
 
 a:hover a:focus {
-    text-decoration: none;
     outline: none;
     color: #ffffff;
-
 }
 
 .but {
     color: #fff;
-    background-color: #ffc107;
     letter-spacing: 0.5px;
     text-align: center;
     border: none;
@@ -108,17 +101,10 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover {
-    color: #ffc107;
-}
-
 .footer {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-}
-
-.footer {
     background-color: #121212;
     padding-top: 70px;
 }
@@ -160,7 +146,8 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #007bff;
+    text-decoration: none;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -168,7 +155,6 @@ a:hover a:focus {
 }
 
 .footer-wedget .footer-newslatter form {
-
     position: relative;
 }
 
@@ -198,231 +184,9 @@ a:hover a:focus {
     border: none;
 }
 
-/*slideshow*/
-
-.carImage {
-    height: 600px;
-    object-fit: contain;
-    width: fit-content;
-}
-
-h5 {
-    font-weight: bold;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-family: Inter, serif;
-    font-family: Inter, serif;
-    line-height: 0.5;
-}
-
-.rspac {
-    font-family: "Inter", serif;
-    font-size: 11px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    letter-spacing: 7px;
-    margin-left: 10px;
-}
-
-.slidepara {
-    font-family: "Inter", serif;
-    display: flex;
-    align-items: center;
-    color: rgb(245, 245, 245);
-    font-size: 16px;
-    font-size: 16px;
-}
-
-.cmText {
-    font-family: "Inter", serif;
-    font-size: 14px;
-    color: white;
-    text-transform: uppercase;
-    line-height: 3;
-    text-align: justify;
-    margin: 45px 0px 0px 10px;
-}
-
-.botbtn {
-    font-family: "Inter", serif;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 165px;
-}
-
-.pricpara {
-    font-family: "Inter", serif;
-    font-size: 12px;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    text-align: center;
-
-    margin: 45px 0px 0px 8px;
-}
-
-.Pbt {
-    font-family: "Inter", serif;
-    line-height: 2;
-    padding: 280px 0px 0px 0px;
-    align-items: center;
-}
-
-.repr {
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px;
-}
-
-.botbtn:hover {
-    background-color: #007bff;
-    color: white;
-}
-
-.cross {
-
-    text-decoration: line-through;
-    color: #888;
-
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
-    backdrop-filter: blur(10px);
-}
-
-.containerr:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 
-/*cards*/
-
-.cards-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.card {
-    margin: 0.5cm;
-    width: calc(100%/3);
-    background-color: #121212;
-}
-
-.image-wrapper {
-    height: 22vw;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
-
-.image-wrapper img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.game-title {
-    font-weight: bold;
-    font-size: 16px;
-    color: #fff;
-    text-decoration-line: none;
-}
-
-.game-price {
-    color: #fff;
-    text-decoration-line: none;
-}
-
-.game-subtitle {
-    color: gray;
-    text-decoration-line: none;
-}
-
-.images {
-    height: 100%;
-}
-
-.card {
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-    border-radius: 0;
-}
-
-.carousel-inner {
-    padding: 1em;
-}
-
-.btn-primary {
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
-    background-color: dodgerblue;
-    width: 350px;
-    height: 55px;
-    padding-top: 15px;
-}
-
-.alignleft {
-    float: left;
-    font-size: 18px;
-    color: #fff;
-}
-
-.alignright {
-    float: right;
-    font-size: 18px;
-    color: #fff;
-}
-
-.line {
-    height: 0.1px;
-    background: #b5b1b1e5;
-    margin-bottom: 10px;
-}
-
-.header {
-    color: #fff;
-    font-size: 40px;
-    line-height: 35px;
-    margin-bottom: 30px;
-
-}
-
+/*body*/
 .card-3 {
     background-color: rgb(32, 32, 32);
     max-width: 540px;
@@ -466,4 +230,7 @@ h5 {
 .game-name{
     padding-left: 15px;
     font-size: 33px;
+}
+.hit{
+    max-height: 200px;
 }
