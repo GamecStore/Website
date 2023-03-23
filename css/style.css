@@ -380,3 +380,11 @@ h5 {
     padding: 1em;
 }
 
+
+.removeText:hover {
+    text-decoration: none;
+}
+.game-name{
+    padding-left: 15px;
+    font-size: 33px;
+}

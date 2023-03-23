@@ -7,9 +7,17 @@ img {
 }
 
 .buyButton:hover {
-    background-color: #ffc107;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    scale: 0.99;
 }
 
 .circle {
     border-radius: 100px;
+}
+
+button {
+    border: none;
+    transition: 0.5s ease;
 }
