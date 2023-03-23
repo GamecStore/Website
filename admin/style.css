@@ -4,7 +4,7 @@
 
 body {
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+    background-color: #1b2024;
 }
 
 html {
@@ -90,4 +90,13 @@ main {
 
 .lh-tight {
     line-height: 1.25;
+}
+
+.dashboard-page {
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    padding: 50px 0;
 }
