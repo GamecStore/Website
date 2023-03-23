@@ -57,7 +57,7 @@ input:focus {
 }
 
 /*footer*/
-.footeremil {
+/* .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -229,18 +229,134 @@ a {
 ul {
     padding-left: 0;
 
-}
-
+} */
+/*footer*/
 * {
+    font-family: "Barlow", Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
+/* .text-bg-dark {
+    background-color: #121212 !important;
+} */
+
+.menu input {
+    margin-left: 10px;
+}
+
+.list:hover {
+    color: #ffc107
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+a.nav-link {
+    color: gray;
+    font-size: 18px;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/*footer*/
+.footeremil {
+    background-color: #222 !important;
+    border-color: #333 !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+
+::placeholder {
+    color: #888 !important;
+    font-size: 14px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Nunito sans ,sans-serif";
+    color: #3d3d3d;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+
+}
+
+.footeremail:focus {
+    outline: none;
+
+
+}
+
+a:hover a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+
+}
+
+.but {
+
+    color: #fff;
+    background-color: #ffc107;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    height: 43px;
+    width: 100px;
+}
+
+.linb:hover {
+
+    color: #ffc107;
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
 body {
     color: #bcd0f7;
-    background: #1A233A;
+    background: black;
 }
 
 .account-settings .user-profile {
@@ -278,10 +394,11 @@ body {
 }
 
 .card {
-    background: black;
-    border-radius: 5px;
-    border: 0;
-    margin-bottom: 1rem;
+    background: #212529;
+    /* border-radius: 5px; */
+    /* border: 0; */
+    /* margin-bottom: 1rem; */
+    padding: 0px;
 }
 
 .form-control {
