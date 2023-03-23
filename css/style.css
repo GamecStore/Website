@@ -192,6 +192,9 @@ a:hover a:focus {
     border: none;
 }
 
+.bg{
+    background-color: #212529;
+}
 /*slideshow*/
 
 .carImage {

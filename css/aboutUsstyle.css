@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.bg{
+    background-color: #212529;
+}
 .menu input {
     margin-left: 10px;
 }

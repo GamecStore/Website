@@ -191,7 +191,9 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
-
+.bg{
+    background-color: #212529;
+}
 /*form*/
 .formlayout {
     border: solid #212529;
