@@ -2,9 +2,9 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-/* .text-bg-dark {
+.text-bg-dark {
     background-color: #121212 !important;
-} */
+}
 
 .menu input {
     margin-left: 10px;
@@ -26,7 +26,7 @@ in style.css .user-pic {
 
 
 
-.footeremil {
+.footeremail {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -38,7 +38,7 @@ in style.css .user-pic {
     font-size: 14px;
 }
 
-.footertext {
+p {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -74,7 +74,6 @@ a:hover a:focus {
 }
 
 .but {
-
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -86,13 +85,11 @@ a:hover a:focus {
 }
 
 .linb:hover {
-
     color: #ffc107;
 }
 
 .footer {
     height: 100%;
-    font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
 }
 
@@ -138,7 +135,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #ffc107;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -188,39 +185,27 @@ h5 {
     font-size: 24px;
     text-transform: uppercase;
     font-family: Inter, serif;
-    font-family: Inter, serif;
     line-height: 0.5;
 }
 
 .rspac {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 7px;
     letter-spacing: 7px;
     margin-left: 10px;
 }
 
 .slidepara {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     display: flex;
     align-items: center;
     color: rgb(245, 245, 245);
     font-size: 16px;
-    font-size: 16px;
 }
 
 .cmText {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     font-size: 14px;
     color: white;
@@ -231,9 +216,6 @@ h5 {
 }
 
 .botbtn {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -249,21 +231,16 @@ h5 {
 
 .pricpara {
     font-family: "Inter", serif;
-
-
-    font-family: "Inter", serif;
     font-size: 12px;
     color: white;
     text-transform: uppercase;
     display: flex;
     text-align: center;
+
     margin: 45px 0px 0px 8px;
 }
 
 .Pbt {
-    font-family: "Inter", serif;
-
-
     font-family: "Inter", serif;
     line-height: 2;
     padding: 280px 0px 0px 0px;
@@ -271,7 +248,6 @@ h5 {
 }
 
 .repr {
-
     font-weight: bold;
     font-size: 14px;
     padding: 5px;
@@ -279,15 +255,12 @@ h5 {
 
 .botbtn:hover {
     background-color: #ffc107;
-
-
-    background-color: #ffc107;
 }
 
 .cross {
-
     text-decoration: line-through;
     color: #888;
+
 }
 
 .overlay {
@@ -383,70 +356,35 @@ h5 {
     padding: 1em;
 }
 
+.alignleft,
+.alignright {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-header {
+    color: #fff;
+    font-size: 50px;
+}
+
 .btn-primary {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     color: #fff;
     background-color: dodgerblue;
-    width: 350px;
-    height: 55px;
-    padding-top: 15px;
+    padding: 15px 140px;
 }
 
 .alignleft {
     float: left;
-    font-size: 18px;
-    color: #fff;
 }
 
 .alignright {
     float: right;
-    font-size: 18px;
-    color: #fff;
 }
 
 .line {
-    height: 0.1px;
+    height: 0.3px;
     background: #b5b1b1e5;
     margin-bottom: 10px;
 }
-
-.header {
-    color: #fff;
-    font-size: 40px;
-    line-height: 35px;
-    margin-bottom: 30px;
-
-}
-
-.card-3 {
-    background-color: rgb(32, 32, 32);
-    max-width: 540px;
-}
-
-.img-fluid {
-    margin: 20px;
-}
-
-.cartImage {
-    max-width: 300px;
-    max-height: 250px;
-}
- .game-price{
-    text-align: right;
-    font-size: 15px;
-    font-weight: bold;
- }
- .mycart{
-    font-weight:bold;
-    font-size: 50px;
- }
-.price1{
-    font-size: 18px;
-    padding-top: 6px;
-    text-align: right;
-}
-/* .remove{
-    color: fff;
-    padding-left: 760px;
-} */

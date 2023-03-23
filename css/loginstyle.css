@@ -54,7 +54,7 @@ a:hover a:focus {
     color: #ffffff;
 }
 
-.but{
+.but {
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -65,7 +65,7 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover{
+.linb:hover {
     color: #ffc107;
 }
 
@@ -117,7 +117,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #ffc107;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -157,39 +157,39 @@ a:hover a:focus {
 
 
 /*form*/
-.formlayout{
-    border:solid white;
+.formlayout {
+    border: solid white;
     background-color: #fff;
     padding: 80px;
     margin: 70px;
-} 
-
-.containerlog{
-    font-family: 'Almarai', sans-serif;
-    display: flex;
-    margin:20px 160px ;
 }
 
-.asteric{
+.containerlog {
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    margin: 20px 160px;
+}
+
+.asteric {
     color: red;
 }
 
-.bot{
+.bot {
     border: none;
     background-color: #fff;
 }
 
-.bot:focus{
+.bot:focus {
     text-decoration: underline #ffc107;
 }
 
-.head3{
+.head3 {
     font-size: 30px;
     color: #ffc107;
     text-align: center;
 }
 
-.acc{
+.acc {
     color: #212529bf;
-    margin-left:170px;
+    margin-left: 170px;
 }
