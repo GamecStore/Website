@@ -41,7 +41,7 @@
     <!------------------->
     <style>
         a.nav-link {
-            color: gray;
+            color: #f3f3f3;
             font-size: 18px;
             padding: 0;
         }
@@ -50,14 +50,18 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: 2px solid #e84118;
+            border: 2px solid;
             padding: 2px;
             flex: none;
         }
 
         input:focus {
-            outline: 0px !important;
-            box-shadow: none !important;
+            outline: 0px;
+            box-shadow: none;
+        }
+
+        .container {
+            padding: 30px;
         }
 
         .card-text {
@@ -71,7 +75,7 @@
         <header class="p-3 text-bg-dark menu-fixed">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-light text-decoration-none">
                         <img src="img/logo.png" alt="logo" width="40" height="40">
                     </a>
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -97,20 +101,17 @@
         </header>
         <!--header-->
         <!--massaging option-->
+
         <div class="container mt-4">
-            <div class="card mx-auto" style="max-width:400px">
-                <div class="card-header bg-transparent">
+            <div class="card bg-dark mx-auto" style="max-width:1000px">
+                <div class="card-header bg-">
                     <div class="navbar navbar-expand p-0">
-                        <ul class="navbar-nav me-auto align-items-center">
+                        <ul class="navbar-nav me-auto ">
                             <li class="nav-item">
                                 <a href="#!" class="nav-link">
-                                    <div class="position-relative"
-                                        style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                                    <div class="position-relative">
                                         <img src="img/account.png" class="img-fluid rounded-circle" alt="">
-                                        <span
-                                            class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
-                                            <span class="visually-hidden">New alerts</span>
-                                        </span>
+
                                     </div>
                                 </a>
                             </li>
@@ -118,33 +119,13 @@
                                 <a href="#!" class="nav-link">user</a>
                             </li>
                         </ul>
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">
-                                    <i class="fas fa-phone-alt"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">
-                                    <i class="fas fa-video"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">
-                                    <i class="fas fa-times"></i>
-                                </a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
-                <div class="card-body p-4" style="height: 500px; overflow: auto;">
+                <div id="color" class="card-body p-4" style="height: 500px; overflow: auto;">
                     <div class="d-flex align-items-baseline mb-4">
                         <div class="position-relative avatar">
                             <img src="img/account.png" class="img-fluid rounded-circle" alt="">
-                            <span
-                                class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
-                                <span class="visually-hidden">New alerts</span>
-                            </span>
                         </div>
                         <div class="pe-2">
                             <div>
@@ -174,20 +155,14 @@
                         </div>
                         <div class="position-relative avatar">
                             <img src="img/account.png" class="img-fluid rounded-circle" alt="">
-                            <span
-                                class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
-                                <span class="visually-hidden">New alerts</span>
-                            </span>
+
                         </div>
                     </div>
 
                     <div class="d-flex align-items-baseline mb-4">
                         <div class="position-relative avatar">
                             <img src="img/account.png" class="img-fluid rounded-circle" alt="">
-                            <span
-                                class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
-                                <span class="visually-hidden">New alerts</span>
-                            </span>
+
                         </div>
                         <div class="pe-2">
                             <div>
@@ -210,102 +185,82 @@
                         </div>
                         <div class="position-relative avatar">
                             <img src="img/account.png" class="img-fluid rounded-circle" alt="">
-                            <span
-                                class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
-                                <span class="visually-hidden">New alerts</span>
-                            </span>
+
                         </div>
+                    </div>
+                    <input type="text" class="form-control border-0" placeholder="Write a message...">
+                    <div class="input-group-text bg-transparent border-0">
+                        <button class="btn btn-light text-secondary">send
                     </div>
 
-                </div>
-                <div class="card-footer bg-white position-absolute w-100 bottom-0 m-0 p-1">
-                    <div class="input-group">
-                        <div class="input-group-text bg-transparent border-0">
-                            <button class="btn btn-light text-secondary">
-                                <i class="fas fa-paperclip"></i>
-                            </button>
-                        </div>
-                        <input type="text" class="form-control border-0" placeholder="Write a message...">
-                        <div class="input-group-text bg-transparent border-0">
-                            <button class="btn btn-light text-secondary">
-                                <i class="fas fa-smile"></i>
-                            </button>
-                        </div>
-                        <div class="input-group-text bg-transparent border-0">
-                            <button class="btn btn-light text-secondary">
-                                <i class="fas fa-microphone"></i>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
-        <!------>
-        <!--footer-->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-about">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="img/logo.png" alt="logo" width="50%"></a>
+            <!------>
+            <!--footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-about">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="img/logo.png" alt="logo" width="50%"></a>
+                                </div>
+                                <p>payment methods</p>
+                                <a href="#"><img src="img/payment.png" alt="logo" width="30%"></a>
                             </div>
-                            <p>payment methods</p>
-                            <a href="#"><img src="img/payment.png" alt="logo" width="30%"></a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-wedget">
+                                <h6>shopping</h6>
+                                <ul>
+                                    <li><a href="#">Games </a></li>
+                                    <li><a href="#"> trending Games </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-wedget">
+                                <h6>LINKS</h6>
+                                <ul>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#"> Payment methods </a></li>
+                                    <li><a href="#"> Return and Exchanges </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-wedget">
+                                <h6>Newsletter</h6>
+                                <div class="footer-newslatter">
+                                    <p class="footertext">Be the first to know about new arrivals,sales & promos!
+                                    </p>
+                                    <form action="#">
+                                        <input type="text" class="footeremail" placeholder="Your Email">
+                                        <button type="submit"><span><i class="fa fa-envelope"
+                                                    arial-hidden="true"></i></span> submit</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-wedget">
-                            <h6>shopping</h6>
-                            <ul>
-                                <li><a href="#">Games </a></li>
-                                <li><a href="#"> trending Games </a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-wedget">
-                            <h6>LINKS</h6>
-                            <ul>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#"> Payment methods </a></li>
-                                <li><a href="#"> Return and Exchanges </a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-wedget">
-                            <h6>Newsletter</h6>
-                            <div class="footer-newslatter">
-                                <p class="footertext">Be the first to know about new arrivals,sales & promos!
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="footer-copyright-text">
+                                <p class="footertext"> Copyright &copy; 2023 All rights reserved | the template is
+                                    made with
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Gamec Group</a>
                                 </p>
-                                <form action="#">
-                                    <input type="text" class="footeremail" placeholder="Your Email">
-                                    <button type="submit"><span><i class="fa fa-envelope"
-                                                arial-hidden="true"></i></span> submit</button>
-                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
+            </footer>
 
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="footer-copyright-text">
-                            <p class="footertext"> Copyright &copy; 2023 All rights reserved | the template is
-                                made with
-                                <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Gamec Group</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!--footer-->
+            <!--footer-->
     </body>
 
 </html>
