@@ -9,3 +9,7 @@ img {
 .buyButton:hover {
     background-color: #ffc107;
 }
+
+.circle {
+    border-radius: 100px;
+}
