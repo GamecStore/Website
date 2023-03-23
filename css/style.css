@@ -452,6 +452,8 @@ h5 {
 
 .img-fluid {
     margin: 20px;
+    max-height: 160px;
+    max-width: 200px;
 }
 
 .cartImage {
@@ -472,19 +474,18 @@ h5 {
 
 .price1 {
     font-size: 18px;
-    padding-top: 6px;
-    text-align: right;
+    padding-left: 240px;
 
 }
 
-/* .remove{
-    color: fff;
-    padding-left: 760px;
-} */
 .removeText {
     text-decoration: underline;
 }
 
 .removeText:hover {
     text-decoration: none;
+}
+.game-name{
+    padding-left: 15px;
+    font-size: 33px;
 }
