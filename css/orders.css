@@ -1,16 +1,14 @@
 * {
     font-family: "Barlow", Helvetica, sans-serif;
-}
-
-.menu input {
-    margin-left: 10px;
-}
-
-* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+}
+.menu input {
+    margin-left: 10px;
+}
+.list:hover{
+    color:#ffc107;
 }
 
 in style.css .user-pic {
@@ -19,6 +17,7 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
+
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -31,7 +30,7 @@ in style.css .user-pic {
     font-size: 14px;
 }
 
-.footertext {
+p {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -53,7 +52,6 @@ ul {
 
 }
 
-/*footer*/
 .footeremail:focus {
     outline: none;
 
@@ -132,8 +130,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: #ffc107;
-    color: #ffc107;
+    color: red;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -169,39 +166,4 @@ a:hover a:focus {
     height: 100%;
     background: transparent;
     border: none;
-}
-
-
-/*form*/
-.formlayout {
-    border: solid #212529;
-    background-color: #212529;
-    padding: 30px 60px 100px 30px;
-    margin: 60px;
-}
-
-.containersign {
-    font-family: 'Almarai', sans-serif;
-    display: flex;
-    margin: 80px;
-}
-
-.image {
-    margin: 50px;
-}
-  
-
-.asteric {
-    color: red;
-}
-
-.head3 {
-    font-size: 38px;
-    padding: 5px;
-    text-align: center;
-}
-
-.acc {
-    color: #f7f8f8bf;
-    margin-left: 165px;
 }

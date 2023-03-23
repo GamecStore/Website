@@ -77,24 +77,34 @@
    <div class ="containerlog">
      <img src="img/Let'sPlay.jpg" class="img-fluid image" alt="welcome">
      <div class ="formlayout">
-      <h3  class="head3 mb-4"><strong>Hello Again!</strong></h3>
-      <button type="button" class="bot">As Admin</button>
-      <button type="button" class="bot mx-4">As User</button>
+      <h3  class="head3 mb-4 text-white"><strong>Hello Again!</strong></h3>
+      <div class="radios">
+        <input type="radio" name="select" id="option-1" checked>
+        <input type="radio" name="select" id="option-2">
+          <label for="option-1" class="option option-1">
+            <div class="dot"></div>
+             <span>As Admin</span>
+             </label>
+          <label for="option-2" class="option option-2">
+            <div class="dot"></div>
+             <span>As User</span>
+          </label>
+       </div>
 
       <form>
         <div class="mb-3 mt-3">
-          <label for="email" class="form-label">Email<span class ="asteric">*</span></label>
+          <label for="email" class="form-label text-white">Email<span class ="asteric">*</span></label>
           <input type="email" class="form-control" id="email" placeholder="Enter your email">
         </div>
 
         <div class="mb-3">
-          <label for="pwd" class="form-label">Password<span class ="asteric">*</span></label>
+          <label for="pwd" class="form-label text-white">Password<span class ="asteric">*</span></label>
           <input type="password" class="form-control" id="pwd" placeholder="Enter your password">
         </div>
 
         <div class="mx-3 mb-2">
-          <button type="button" class="mx-2 btn btn-outline-warning">Register</button>
-          <button type="button" class="mx-2 btn btn-warning">Login</button>
+          <button type="button" class="mx-2 btn btn-outline-primary">Register</button>
+          <button type="button" class="mx-2 btn btn-primary">Login</button>
         </div>
 
 
