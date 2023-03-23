@@ -16,9 +16,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
 
 
 
@@ -38,8 +36,6 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!------------------->
 
   <link rel="stylesheet" href="css/style.css">
@@ -57,7 +53,7 @@
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            <input name="search" type="search" class="form-control" placeholder="Search..." aria-label="Search">
           </form>
           <li><a href="#" class="nav-link px-2 text-secondary">Discover</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Support</a></li>
@@ -73,132 +69,160 @@
     </div>
   </header>
   <!------------>
-  <div class="card ">
-    <h5 class="card-header">Games and Apps Summary</h5>
-    <div class="card-body">
-      <!-- <h5 class="card-title">Special title treatment</h5> -->
-      <div id="textbox">
-        <p class="alignleft">Price</p>
-        <p class="alignright">$25.99</p>
+
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="col-12 text-white mycart">My Cart</h1>
       </div>
-      <div style="clear: both;"></div>
-      <div id="textbox">
-        <p class="alignleft">Sales Discount</p>
-        <p class="alignright">-$5.99</p>
-      </div>
-      <div style="clear: both;"></div>
-      <div id="textbox">
-        <p class="alignleft">Taxes</p>
-        <p style="color: grey;" class="alignright">Calculate at Checkout</p>
-      </div>
-      <div style="clear: both;"></div>
-      <div class="line"></div>
-      <div id="textbox">
-        <p style="font-weight: bold;" class="alignleft">Subtotal</p>
-        <p style="font-weight: bold;" class="alignright">$20.00</p>
-      </div>
-      <div style="clear: both;"></div>
-      <a href="#" class="btn btn-primary text-center">CHECK OUT</a>
     </div>
   </div>
-    <!--footer-->
-    <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="footer-about">
-                <div class="footer-logo">
-                  <a href="#"><img src="img/logo.png" alt="logo" width="50%"></a>
-    
-                </div>
-                <p>payment methods</p>
-                <a href="#"><img src="img/payment.png" alt="logo" width="30%"></a>
-    
-              </div>
-            </div>
-    
-            <div class="col-lg-3 col-md-6 col-sm-6">
-    
-    
-              <div class="footer-wedget">
-                <h6>shopping</h6>
-                <ul>
-                  <li><a href="#">Games </a></li>
-                  <li><a href="#"> trending Games </a></li>
-                </ul>
-              </div>
-    
-            </div>
-    
-    
-            <div class="col-lg-3 col-md-6 col-sm-6">
-    
-    
-              <div class="footer-wedget">
-    
-                <h6>LINKS</h6>
-                <ul>
-                  <li><a href="#">Contact us</a></li>
-                  <li><a href="#"> Payment methods </a></li>
-                  <li><a href="#"> Return and Exchanges </a></li>
-                </ul>
-              </div>
-    
-            </div>
-    
-    
-    
-    
-            <div class="col-lg-3 col-md-6 col-sm-6">
-    
-    
-              <div class="footer-wedget">
-    
-                <h6>Newsletter</h6>
-                <div class="footer-newslatter">
-                  <p>Be the first to know about new arrivals,sales & promos!</p>
-                  <form action="#">
-                    <input type="text" placeholder="Your Email">
-                    <button type="submit"><span><i class="fa fa-envelope" arial-hidden="true"></i></span> submit</button>
-                  </form>
-    
-                </div>
-              </div>
-    
-            </div>
-    
-          </div>
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <div class="footer-copyright-text">
-                <p> Copyright &copy; 2023 All rights reserved | the template is made with <i class="fa fa-heart-o"
-                    aria-hidden="true"></i> by <a href="#">MARINA</a> </p>
-    
-              </div>
-    
-            </div>
-    
-          </div>
-    
+
+  <div class="container  my-4 rounded-3">
+    <div class="row">
+
+      <div class="col-12 col-md-8 bg-dark rounded-3 " style="max-height: 200px;">
+        <div class="row">
+          <img src="img/red dead redemption.jpg" alt=""
+            class="img-fluid  col-12 col-md-2 align-self-center align-self-md-start ">
+          <h2 class="col-12 col-md-7 text-white my-4">Red Dead Redemption 2</h2>
+          <p class="col-12 col-md-2 text-white my-4 price1">EGP 200.00</p>       
+            <!-- <a href="#" class="col-12 col-md-2 text-white my-7 btn remove ">REMOVE</a>     -->
+          
+          
+
         </div>
-      </footer>
-      <!--footer-->
-      <!-- Scripts -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-      <script src="src/js/bootstrap.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    
-    
-    
-    
-      <!------->
-    </body>
-    
-    
-    </html>
-    
-    
+
+
+
+      </div>
+
+      <div class="col-4 bg-black text-white px-5">
+               <p class="header">Games and Apps Summary</p>
+                <div >
+                  <p class="alignleft">Price</p>
+                  <p class="alignright">EGP  250.99</p>
+                </div>
+                <div style="clear: both;"></div>
+                <div >
+                  <p class="alignleft">Sales Discount</p>
+                  <p class="alignright">EGP  -50.99</p>
+                </div>
+                <div style="clear: both;"></div>
+                <div >
+                  <p class="alignleft">Taxes</p>
+                  <p style="color: grey;" class="alignright">Calculate at Checkout</p>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="line"></div>
+                <div >
+                  <p style="font-weight: bold;" class="alignleft">Subtotal</p>
+                  <p style="font-weight: bold;" class="alignright">EGP  200.00</p>
+                </div>
+                <div style="clear: both;"></div>
+                <a href="#" class="btn btn-primary ">CHECK OUT</a>       
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-about">
+            <div class="footer-logo">
+              <a href="#"><img src="img/logo.png" alt="logo" width="50%"></a>
+
+            </div>
+            <p>payment methods</p>
+            <a href="#"><img src="img/payment.png" alt="logo" width="30%"></a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+
+
+          <div class="footer-wedget">
+            <h6>shopping</h6>
+            <ul>
+              <li><a href="#">Games </a></li>
+              <li><a href="#"> trending Games </a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+
+
+          <div class="footer-wedget">
+
+            <h6>LINKS</h6>
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#"> Payment methods </a></li>
+              <li><a href="#"> Return and Exchanges </a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+
+
+          <div class="footer-wedget">
+
+            <h6>Newsletter</h6>
+            <div class="footer-newslatter">
+              <p>Be the first to know about new arrivals,sales & promos!</p>
+              <form action="#">
+                <input type="text" placeholder="Your Email">
+                <button type="submit"><span><i class="fa fa-envelope" arial-hidden="true"></i></span> submit</button>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="footer-copyright-text">
+            <p> Copyright &copy; 2023 All rights reserved | the template is made with <i class="fa fa-heart-o"
+                aria-hidden="true"></i> by <a href="#">MARINA</a> </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <!--footer-->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+
+
+
+  <!------->
+</body>
+
+
+</html>

@@ -2,13 +2,29 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-.text-bg-dark {
+/* .text-bg-dark {
     background-color: #121212 !important;
-}
+} */
 
 .menu input {
     margin-left: 10px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
 
 .footeremil {
     background-color: #222 !important;
@@ -57,7 +73,8 @@ a:hover a:focus {
 
 }
 
-.but{
+.but {
+
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -68,7 +85,8 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover{
+.linb:hover {
+
     color: #ffc107;
 }
 
@@ -169,29 +187,41 @@ h5 {
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-    font-family: Inter,serif;
+    font-family: Inter, serif;
+    font-family: Inter, serif;
     line-height: 0.5;
 }
 
-.rspac{
-    font-family: "Inter",serif;
+.rspac {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 7px; 
+    letter-spacing: 7px;
+    letter-spacing: 7px;
     margin-left: 10px;
 }
 
-.slidepara{
-    font-family: "Inter",serif;
+.slidepara {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     display: flex;
     align-items: center;
     color: rgb(245, 245, 245);
-    font-size: 16px;    
+    font-size: 16px;
+    font-size: 16px;
 }
 
-.cmText{
-    font-family: "Inter",serif;
+.cmText {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 14px;
     color: white;
     text-transform: uppercase;
@@ -200,8 +230,11 @@ h5 {
     margin: 45px 0px 0px 10px;
 }
 
-.botbtn{
-    font-family: "Inter",serif;
+.botbtn {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -214,8 +247,11 @@ h5 {
     width: 165px;
 }
 
-.pricpara{
-    font-family: "Inter",serif;
+.pricpara {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 12px;
     color: white;
     text-transform: uppercase;
@@ -224,24 +260,32 @@ h5 {
     margin: 45px 0px 0px 8px;
 }
 
-.Pbt{
-    font-family: "Inter",serif;
+.Pbt {
+    font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     line-height: 2;
     padding: 280px 0px 0px 0px;
     align-items: center;
 }
 
-.repr{
+.repr {
+
     font-weight: bold;
     font-size: 14px;
     padding: 5px;
 }
 
-.botbtn:hover{
-    background-color:  #ffc107;
+.botbtn:hover {
+    background-color: #ffc107;
+
+
+    background-color: #ffc107;
 }
 
-.cross{
+.cross {
+
     text-decoration: line-through;
     color: #888;
 }
@@ -319,11 +363,12 @@ h5 {
     text-decoration-line: none;
 }
 
-.game-subtitle{
+.game-subtitle {
     color: gray;
     text-decoration-line: none;
 }
-.images{
+
+.images {
     height: 100%;
 }
 
@@ -337,29 +382,71 @@ h5 {
 .carousel-inner {
     padding: 1em;
 }
-.alignleft,.alignright{
+
+.btn-primary {
+    font-size: 15px;
+    font-weight: bold;
     color: #fff;
-    font-size: 20px;
+    background-color: dodgerblue;
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
 }
-.card-header{
-    color:#fff;
-    font-size: 50px;
-}
-.btn-primary{
-    font-size: 17px;
-    font-weight:bold;
-    color: #fff;
-    background-color:dodgerblue;
-    padding: 15px 140px;
-}
+
 .alignleft {
-	float: left;
+    float: left;
+    font-size: 18px;
+    color: #fff;
 }
+
 .alignright {
-	float: right;
+    float: right;
+    font-size: 18px;
+    color: #fff;
 }
+
 .line {
-    height: 0.3px;
+    height: 0.1px;
     background: #b5b1b1e5;
     margin-bottom: 10px;
 }
+
+.header {
+    color: #fff;
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 30px;
+
+}
+
+.card-3 {
+    background-color: rgb(32, 32, 32);
+    max-width: 540px;
+}
+
+.img-fluid {
+    margin: 20px;
+}
+
+.cartImage {
+    max-width: 300px;
+    max-height: 250px;
+}
+ .game-price{
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .mycart{
+    font-weight:bold;
+    font-size: 50px;
+ }
+.price1{
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: right;
+}
+/* .remove{
+    color: fff;
+    padding-left: 760px;
+} */
