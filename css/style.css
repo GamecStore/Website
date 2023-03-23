@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+/* .text-bg-dark {
+    background-color: #121212 !important;
+} */
+
 .menu input {
     margin-left: 10px;
 }
@@ -68,6 +72,7 @@ a:hover a:focus {
 }
 
 .but {
+
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -79,11 +84,13 @@ a:hover a:focus {
 }
 
 .linb:hover {
+
     color: #ffc107;
 }
 
 .footer {
     height: 100%;
+    font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
 }
 
@@ -129,7 +136,7 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: #ffc107;
+    color: red;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -179,27 +186,39 @@ h5 {
     font-size: 24px;
     text-transform: uppercase;
     font-family: Inter, serif;
+    font-family: Inter, serif;
     line-height: 0.5;
 }
 
 .rspac {
     font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
+    letter-spacing: 7px;
     letter-spacing: 7px;
     margin-left: 10px;
 }
 
 .slidepara {
     font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     display: flex;
     align-items: center;
     color: rgb(245, 245, 245);
     font-size: 16px;
+    font-size: 16px;
 }
 
 .cmText {
+    font-family: "Inter", serif;
+
+
     font-family: "Inter", serif;
     font-size: 14px;
     color: white;
@@ -210,6 +229,9 @@ h5 {
 }
 
 .botbtn {
+    font-family: "Inter", serif;
+
+
     font-family: "Inter", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -225,6 +247,9 @@ h5 {
 
 .pricpara {
     font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     font-size: 12px;
     color: white;
     text-transform: uppercase;
@@ -236,12 +261,16 @@ h5 {
 
 .Pbt {
     font-family: "Inter", serif;
+
+
+    font-family: "Inter", serif;
     line-height: 2;
     padding: 280px 0px 0px 0px;
     align-items: center;
 }
 
 .repr {
+
     font-weight: bold;
     font-size: 14px;
     padding: 5px;
@@ -249,9 +278,13 @@ h5 {
 
 .botbtn:hover {
     background-color: #ffc107;
+
+
+    background-color: #ffc107;
 }
 
 .cross {
+
     text-decoration: line-through;
     color: #888;
 
@@ -350,35 +383,30 @@ h5 {
     padding: 1em;
 }
 
-.alignleft,
-.alignright {
-    color: #fff;
-    font-size: 20px;
-}
-
-.card-header {
-    color: #fff;
-    font-size: 50px;
-}
-
 .btn-primary {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     color: #fff;
     background-color: dodgerblue;
-    padding: 15px 140px;
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
 }
 
 .alignleft {
     float: left;
+    font-size: 18px;
+    color: #fff;
 }
 
 .alignright {
     float: right;
+    font-size: 18px;
+    color: #fff;
 }
 
 .line {
-    height: 0.3px;
+    height: 0.1px;
     background: #b5b1b1e5;
     margin-bottom: 10px;
 }
