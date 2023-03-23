@@ -1,56 +1,210 @@
-/* navbar*/
-
-/*@media (min-width:992px) {
-    nav
-    
-}*/
-/* .navbar {
-    background-color: black;
+* {
+    font-family: "Barlow", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.navbar .nav-link {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.navbar .nav-link:hover {
-    color: #ffc107;
-}
-
-.navbar .nav-link.active {
-    color: #ffc107;
-} */
-
-/* @media (min-width: 992px) { */
-/* .navbar {
-        min-height: 100vh;
-        width: var(--sidbar-width);
-        background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%),;
-
-        background-size: cover;
-        background-position: center;
-    } */
-
-/* CONTENT WRAPPER */
-/* .navbar-brand img {
-        border: 8px solid var(--color-brand);
-    }
-
-
-    #content-wrapper { */
-/* padding-left: var(--sidbar-width); */
-/* padding-left: 0;
-
-    }
-} */
-
 
 * {
     font-family: "Barlow", Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* .text-bg-dark {
+    background-color: #121212 !important;
+} */
+
+.menu input {
+    margin-left: 10px;
+}
+
+.list:hover {
+    color: #ffc107
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+a.nav-link {
+    color: gray;
+    font-size: 18px;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/*footer*/
+.footeremil {
+    background-color: #222 !important;
+    border-color: #333 !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+
+::placeholder {
+    color: #888 !important;
+    font-size: 14px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Nunito sans ,sans-serif";
+    color: #3d3d3d;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+
+}
+
+.footeremail:focus {
+    outline: none;
+
+
+}
+
+a:hover a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+
+}
+
+.but {
+
+    color: #fff;
+    background-color: #ffc107;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    height: 43px;
+    width: 100px;
+}
+
+.linb:hover {
+
+    color: #ffc107;
+}
+
+.footer {
+    height: 100%;
+    font-family: "Nunito sans ,sans-serif";
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    background-color: #121212;
+    padding-top: 70px;
+}
+
+.footer-about {
+    margin-bottom: 30px;
+}
+
+.footer-about .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-about p {
+    color: #b7b7b7;
+    margin-bottom: 30px;
+}
+
+.footer-wedget {
+    margin-bottom: 30px;
+}
+
+.footer-wedget h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-wedget ul li {
+    line-height: 36px;
+    list-style: none;
+}
+
+.footer-wedget ul li a {
+    color: #b7b7b7;
+    font-size: 15px;
+}
+
+.footer-wedget ul li a:hover {
+    color: red;
+}
+
+.footer-wedget .footer-newslatter p {
+    color: #b7b7b7;
+}
+
+.footer-wedget .footer-newslatter form {
+
+    position: relative;
+}
+
+.footer-wedget .footer-newslatter form input {
+    width: 100%;
+    font-size: 15px;
+    color: #ffffffff;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    border-bottom: 2px solid #ffffffff;
+}
+
+.footer-wedget .footer-newslatter form input ::placeholder {
+    color: #b7b7b7;
+
+}
+
+.footer-wedget .footer-newslatter form button {
+    color: #b7b7b7;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
 }
 
 .menu input {
@@ -117,8 +271,7 @@ body {
     font-weight: 400;
 }
 
-.account-settings .about 
-{
+.account-settings .about {
     margin: 1rem 0 0 0;
     font-size: 0.8rem;
     text-align: center;
@@ -138,7 +291,7 @@ body {
     font-size: .825rem;
 }
 
-.profimg{
+.profimg {
     border-radius: 550px;
     width: 12%;
     margin-top: 9px;

@@ -1,4 +1,3 @@
-
 * {
     font-family: "Barlow", Helvetica, sans-serif;
 }
@@ -12,7 +11,7 @@
 }
 
 * {
-    padding: 0;
+    padding: 5;
     margin: 0;
     box-sizing: border-box;
 
@@ -24,26 +23,29 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
-.position-relative
-{
-    width:50px;
-     height: 50px; 
-     border-radius: 50%;
-  border: 2px solid #e84118;
-     padding: 2px
 
+.position-relative {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px
+}
+
+#color {
+    background-color: 808080;
 }
 
 /*footer*/
 .footeremail {
-    background-color: #222 !important;
-    border-color: #333 !important;
-    border-radius: 20px !important;
-    color: #fff !important;
+    background-color: #222 ;
+    border-color: #333 ;
+    border-radius: 20px ;
+    color: #fff ;
 }
 
 ::placeholder {
-    color: #888 !important;
+    color: #888 ;
     font-size: 14px;
 }
 
