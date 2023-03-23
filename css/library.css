@@ -1,7 +1,5 @@
 .libraryItem {
     object-fit: cover;
-
-
 }
 
 .card {
@@ -11,7 +9,6 @@
 .libraryItem {
     /* transition: filter 0.5s ease; */
     transition: 0.5s ease;
-
 }
 
 
@@ -34,13 +31,10 @@
     /* filter: blur(2px); */
     transform: scale(1.12);
     opacity: 0.7;
-
 }
 
 .libraryItem:hover.info {
     opacity: 1;
-
-
 }
 
 
@@ -51,7 +45,6 @@
 
 #gameSearch:focus {
     outline: none;
-
 }
 
 select:focus {

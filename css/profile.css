@@ -45,8 +45,36 @@
     }
 } */
 
+
 * {
     font-family: "Barlow", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu input {
+    margin-left: 10px;
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+
 }
 
 * {
@@ -57,7 +85,6 @@
 }
 
 body {
-    margin-top: 20px;
     color: #bcd0f7;
     background: #1A233A;
 }
@@ -107,9 +134,12 @@ body {
 .form-control {
     border: 1px solid #596280;
     -webkit-border-radius: 2px;
-
     border-radius: 2px;
     font-size: .825rem;
-    background: #1A233A;
-    color: #bcd0f7;
+}
+
+.profimg{
+    border-radius: 550px;
+    width: 12%;
+    margin-top: 9px;
 }

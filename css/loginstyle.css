@@ -2,15 +2,24 @@
     font-family: "Barlow", Helvetica, sans-serif;
 }
 
-.text-bg-dark {
-    background-color: #121212 !important;
-}
-
 .menu input {
     margin-left: 10px;
 }
 
-.footeremail {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+in style.css .user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
     border-radius: 20px !important;
@@ -22,7 +31,7 @@
     font-size: 14px;
 }
 
-p {
+.footertext {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -46,15 +55,18 @@ ul {
 
 .footeremail:focus {
     outline: none;
+
+
 }
 
 a:hover a:focus {
     text-decoration: none;
     outline: none;
     color: #ffffff;
+
 }
 
-.but {
+.but{
     color: #fff;
     background-color: #ffc107;
     letter-spacing: 0.5px;
@@ -65,7 +77,7 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover {
+.linb:hover{
     color: #ffc107;
 }
 
@@ -156,10 +168,11 @@ a:hover a:focus {
 }
 
 
+
 /*form*/
 .formlayout {
-    border: solid white;
-    background-color: #fff;
+    border: solid #212529;
+    background-color: #212529;
     padding: 80px;
     margin: 70px;
 }
@@ -174,22 +187,97 @@ a:hover a:focus {
     color: red;
 }
 
-.bot {
-    border: none;
-    background-color: #fff;
-}
-
-.bot:focus {
-    text-decoration: underline #ffc107;
-}
-
 .head3 {
     font-size: 30px;
-    color: #ffc107;
     text-align: center;
 }
 
 .acc {
     color: #212529bf;
     margin-left: 170px;
+}
+
+.radios{
+    display: flex;
+    padding: 2px;
+}
+
+.word {
+    cursor:pointer;
+    transition:all .2s ease;
+}
+
+.radiobutton{
+    display:none; 
+}
+
+.radiobutton:checked{
+    text-decoration: underline #1c80e5;
+}
+
+.radios{
+  display: flex;
+  height: 100px;
+  width: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+.radios .option{
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid lightgrey;
+  transition: all 0.3s ease;
+}
+.radios .option .dot{
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+}
+.radios .option .dot::before{
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #0069d9;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}
+
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2{
+  border-color: #0069d9;
+  background: #0069d9;
+}
+#option-1:checked:checked ~ .option-1 .dot,
+#option-2:checked:checked ~ .option-2 .dot{
+  background: #fff;
+}
+#option-1:checked:checked ~ .option-1 .dot::before,
+#option-2:checked:checked ~ .option-2 .dot::before{
+  opacity: 1;
+  transform: scale(1);
+}
+.radios .option span{
+  font-size: 20px;
+  color: #808080;
+}
+#option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span{
+  color: #fff;
 }
