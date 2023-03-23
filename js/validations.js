@@ -12,7 +12,7 @@ function validate(form) {
     document.getElementById('dob').style.border = '';
     document.getElementById('adminError').innerHTML = '';
     document.getElementById('admin').style.border = '';
-    document.getElementById('confirmPasswordError').innerHTML = '';
+
 
     let error = true;
     if (form.name.value.trim() == '') {
@@ -45,12 +45,15 @@ function validate(form) {
     }
 
 
-    if (form.confirmPassword.value.trim() != form.password.value.trim()) {
+    if (form.confirmPassword.value !== form.password.value) {
         document.getElementById('confirmPasswordError').innerHTML = ' passwords need to match';
         document.getElementById('confirmPasswordError').style.color = "red";
         document.getElementById('confirmPassword').style.border = 'red solid 2px';
+        console.log("hello");
         error = false;
     }
+
+
     if (form.password.value.length < 8 || form.password.value.length > 20) {
         document.getElementById('passwordError').innerHTML = 'Password must be between 8-20 characters long';
         document.getElementById('passwordError').style.color = "red";
@@ -58,12 +61,7 @@ function validate(form) {
         error = false;
     }
 
-    if (form.dob.value.trim() === '') {
-        document.getElementById('confirmPasswordError').innerHTML = ' passwords need to match';
-        document.getElementById('confirmPasswordError').style.color = "red";
-        document.getElementById('confirmPassword').style.border = 'red solid 2px';
-        error = false;
-    }
+
 
     var dobInput = document.getElementById("dob");
 
