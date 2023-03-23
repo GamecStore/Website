@@ -41,7 +41,6 @@ a {
 
 ul {
     padding-left: 0;
-
 }
 
 .footeremail:focus {
@@ -54,7 +53,6 @@ a:hover a:focus {
     text-decoration: none;
     outline: none;
     color: #ffffff;
-
 }
 
 .but{
@@ -158,92 +156,53 @@ a:hover a:focus {
     border: none;
 }
 
-/*slideshow*/
 
-.carImage {
-    height: 600px;
-    object-fit: contain;
-}
+/**Body**/
 
-h5 {
-    font-weight: bold;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-family: Inter,serif;
-    line-height: 0.5;
-}
-
-.rspac{
-    font-family: "Inter",serif;
-    font-size: 11px;
+h1{
     color: white;
-    text-transform: uppercase;
-    letter-spacing: 7px; 
-    margin-left: 10px;
-}
-
-.slidepara{
-    font-family: "Inter",serif;
-    display: flex;
-    align-items: center;
-    color: rgb(245, 245, 245);
-    font-size: 16px;    
-}
-
-.cmText{
-    font-family: "Inter",serif;
-    font-size: 14px;
-    color: white;
-    text-transform: uppercase;
-    line-height: 3;
-    text-align: justify;
-    margin: 45px 0px 0px 10px;
-}
-
-.botbtn{
-    font-family: "Inter",serif;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    font-size: 50px;
+    max-width: 410px;
+    width: 100%;
+    margin:0 auto 10px;
+    padding: 10px;
+    border-radius: 1.5em;
+    box-shadow: 0 1px 2px rgba(red, green, blue, alpha);
     text-align: center;
-    border: none;
-    border-radius: 12px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 165px;
+    font-variant: small-caps;
 }
 
-.pricpara{
-    font-family: "Inter",serif;
-    font-size: 12px;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
+h2 {
     text-align: center;
-    margin: 45px 0px 0px 8px;
+    color: #ffffff;
+    margin-top: 1px;
+    font-size: 18px;
 }
 
-.Pbt{
-    font-family: "Inter",serif;
-    line-height: 2;
-    padding: 280px 0px 0px 0px;
-    align-items: center;
+.team {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 500px;
+    margin-top: 10px;
 }
 
-.repr{
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px;
+.container1 {
+    position: relative;
+    width: 20%;
+    float: left;
+    
 }
 
-.botbtn:hover{
-    background-color:  #ffc107;
+.container1:hover .overlay {
+    opacity: 1;
 }
 
-.cross{
-    text-decoration: line-through;
-    color: #888;
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+    border-radius: 50%;
 }
 
 .overlay {
@@ -256,110 +215,48 @@ h5 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background: linear-gradient(to bottom, rgba(91, 90, 90,0), rgb(53, 52, 52));
     backdrop-filter: blur(10px);
-}
-
-.container:hover .overlay {
-    opacity: 1;
 }
 
 .text {
     color: white;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 16px;
+    width: fit-content;
 }
 
-
-/*cards*/
-
-.cards-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.card {
-    margin: 0.5cm;
-    width: calc(100%/3);
-    background-color: #121212;
-}
-
-.image-wrapper {
-    height: 22vw;
+.icons{
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 1px;
 }
 
-.image-wrapper img {
-    max-width: 100%;
-    max-height: 100%;
+#ic1{
+    margin-left: 50px;
 }
 
-.game-title {
-    font-weight: bold;
-    font-size: 16px;
-    color: #fff;
-    text-decoration-line: none;
+.iconimg{
+    width:50%;
 }
 
-.game-price {
-    color: #fff;
-    text-decoration-line: none;
+.team.image{
+    width: 80px; 
+    margin: 10px;
+    padding: 25px; ;
+    box-shadow: 0 1px 2px rgba(0,0,0,0);
 }
 
-.game-subtitle{
-    color: gray;
-    text-decoration-line: none;
-}
-.images{
-    height: 100%;
-}
-
-.card {
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-    border-radius: 0;
-}
-
-.carousel-inner {
-    padding: 1em;
-}
-.alignleft,.alignright{
-    color: #fff;
-    font-size: 20px;
-}
-.card-header{
-    color:#fff;
-    font-size: 50px;
-}
-.btn-primary{
-    font-size: 17px;
-    font-weight:bold;
-    color: #fff;
-    background-color:dodgerblue;
-    padding: 15px 140px;
-}
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
-}
-.line {
-    height: 0.3px;
-    background: #b5b1b1e5;
-    margin-bottom: 10px;
+.team.container1.btn_grp{
+    display: flex;
 }
