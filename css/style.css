@@ -1,5 +1,8 @@
 * {
     font-family: "Barlow", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* .text-bg-dark {
@@ -9,11 +12,8 @@
 .menu input {
     margin-left: 10px;
 }
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.list:hover{
+    color:#ffc107
 
 }
 
@@ -23,8 +23,6 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
-
-
 
 .footeremil {
     background-color: #222 !important;
