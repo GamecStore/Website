@@ -147,7 +147,7 @@
                                 <div class="text-right">
                                     <button type="button" id="submit" name="submit"
                                         class="btn btn-secondary">Cancel</button>
-                                    <button type="button" id="submit" name="submit"
+                                    <button type="submit" id="submit" name="submit"
                                         class="btn btn-primary">Update</button>
                                 </div>
                             </div>
@@ -168,26 +168,28 @@
                     <h5 class="mb-0">shipping details</h5>
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form action="" method="get" onsubmit="return validatePaymentDetails(this)">
                         <h5 class="mb-4">Payment</h5>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm3"
-                                checked />
+                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="checkoutForm3" checked />
                             <label class="form-check-label" for="checkoutForm3">
                                 Credit card
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm4" />
+                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="checkoutForm4" />
                             <label class="form-check-label" for="checkoutForm4">
                                 Debit card
                             </label>
                         </div>
 
                         <div class="form-check mb-1">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm5" />
+                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="checkoutForm5" />
                             <label class="form-check-label" for="checkoutForm5">
                                 Paypal
                             </label>
@@ -196,7 +198,7 @@
                         <div class="row mb-1">
                             <div class="col">
                                 <div class="form-outline">
-                                    <input type="text" id="formNameOnCard" class="form-control" />
+                                    <input required type="text" id="formNameOnCard" class="form-control" />
                                     <label class="form-label" for="formNameOnCard">Name on card</label>
                                 </div>
                             </div>

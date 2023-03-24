@@ -110,6 +110,9 @@ function validateSearch() {
         document.getElementById('search').style.border = "red solid 2px";
         error = false;
     }
+    else {
+
+    }
     return error;
 }
 
@@ -141,4 +144,13 @@ function validateLogin(form) {
 
     }
     return false;
+}
+
+function validateProfile() {
+
+}
+
+function validatePaymentDetails() {
+
+
 }
