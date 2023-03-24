@@ -110,9 +110,6 @@ function validateSearch() {
         document.getElementById('search').style.border = "red solid 2px";
         error = false;
     }
-    else {
-
-    }
     return error;
 }
 
@@ -136,12 +133,20 @@ function validateLogin(form) {
         error = false;
 
     }
+    else {
+        document.getElementById('emailError').innerHTML = '';
+        document.getElementById('email').style.border = 'none';
+    }
     if (document.getElementById('password').value.trim() === '') {
         document.getElementById('passwordError').innerHTML = 'Enter your password';
         document.getElementById('passwordError').style.color = "red";
         document.getElementById('password').style.border = 'red solid 2px';
         error = false;
 
+    }
+    else {
+        document.getElementById('passwordError').innerHTML = '';
+        document.getElementById('password').style.border = 'none';
     }
     return false;
 }
