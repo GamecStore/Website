@@ -189,6 +189,42 @@ a:hover a:focus {
 
 
 /*body*/
+.btn-primary {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: dodgerblue;
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
+}
+
+.alignleft {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+.alignright {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+}
+
+.line {
+    height: 0.1px;
+    background: #b5b1b1e5;
+    margin-bottom: 10px;
+}
+
+.header {
+    color: #fff;
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 30px;
+
+}
+
 .card-3 {
     background-color: rgb(32, 32, 32);
     max-width: 540px;
@@ -196,8 +232,7 @@ a:hover a:focus {
 
 .img-fluid {
     margin: 20px;
-    max-height: 160px;
-    max-width: 200px;
+
 }
 
 .cartImage {
@@ -229,10 +264,8 @@ a:hover a:focus {
 .removeText:hover {
     text-decoration: none;
 }
-.game-name{
+
+.game-name {
     padding-left: 15px;
-    font-size: 33px;
-}
-.hit{
-    max-height: 200px;
+    font-size: 31px;
 }
