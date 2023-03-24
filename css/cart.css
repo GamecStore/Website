@@ -269,3 +269,8 @@ a:hover a:focus {
     padding-left: 15px;
     font-size: 31px;
 }
+.btn{
+    background-color: #121212;
+    color: #fff;
+    text-align: left;
+}
