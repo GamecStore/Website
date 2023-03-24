@@ -4,17 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #212529;
-}
 
 .menu input {
     margin-left: 10px;
 }
 
-.list:hover{
-    color:#ffc107;
-}
+.list {
+    font-size: 14px;
+} 
 
 in style.css .user-pic {
     width: 40px;
@@ -23,6 +20,37 @@ in style.css .user-pic {
     margin-left: 30px;
 }
 
+a.nav-link {
+    color: gray;
+    font-size: 15px;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.loginbtn:hover{
+    text-decoration: underline #007bff;
+}
+
+/*footer*/
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -48,12 +76,9 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul {
     padding-left: 0;
+
 }
 
 .footeremail:focus {
@@ -61,14 +86,12 @@ ul {
 }
 
 a:hover a:focus {
-    text-decoration: none;
     outline: none;
     color: #ffffff;
 }
 
 .but {
     color: #fff;
-    background-color: #ffc107;
     letter-spacing: 0.5px;
     text-align: center;
     border: none;
@@ -77,16 +100,11 @@ a:hover a:focus {
     width: 100px;
 }
 
-
-.linb:hover {
-    color: #ffc107;
-}
-
 .footer {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-    background-color: #212529;
+    background-color: #121212;
     padding-top: 70px;
 }
 
@@ -127,7 +145,8 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: red;
+    color: #007bff;
+    text-decoration: none;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -135,7 +154,6 @@ a:hover a:focus {
 }
 
 .footer-wedget .footer-newslatter form {
-
     position: relative;
 }
 
@@ -164,7 +182,27 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
+.bg{
+    background-color: #212529;
+}
 
+
+/***Body****/
+ h2{
+    font-family: "Barlow",serif;
+ }
 .tablehead{
     text-transform: uppercase;
+}
+
+.tbl{
+    cursor: pointer;
+    width:90%;
+    margin: 0 auto;
+}
+
+.trr:hover{
+    scale: 1.01;
+    transition: 0.5s ease;
+    box-shadow: -1px -2px 5px 0.5px rgb(255, 255, 255) ;
 }

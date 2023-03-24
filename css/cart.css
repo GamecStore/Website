@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.bg{
+    background-color: #212529;
+}
 .menu input {
     margin-left: 10px;
 }
@@ -26,14 +28,6 @@ a.nav-link {
     padding: 0;
 }
 
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #e84118;
-    padding: 2px;
-    flex: none;
-}
 
 input:focus {
     outline: 0px !important;
@@ -191,33 +185,54 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
-.bg{
-    background-color: #212529;
-}
-/*form*/
-.formlayout {
-    border: solid #212529;
-    background-color: #212529;
-    padding: 80px;
-    margin: 70px;
+
+
+
+/*body*/
+.card-3 {
+    background-color: rgb(32, 32, 32);
+    max-width: 540px;
 }
 
-.containerlog {
-    font-family: 'Almarai', sans-serif;
-    display: flex;
-    margin: 20px 160px;
+.img-fluid {
+    margin: 20px;
+    max-height: 160px;
+    max-width: 200px;
 }
 
-.asteric {
-    color: red;
+.cartImage {
+    max-width: 300px;
+    max-height: 250px;
 }
 
-.head3 {
-    font-size: 30px;
-    text-align: center;
+.game-price {
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.acc {
-    color: #212529bf;
-    margin-left: 170px;
+.mycart {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.price1 {
+    font-size: 18px;
+    padding-left: 240px;
+
+}
+
+.removeText {
+    text-decoration: underline;
+}
+
+.removeText:hover {
+    text-decoration: none;
+}
+.game-name{
+    padding-left: 15px;
+    font-size: 33px;
+}
+.hit{
+    max-height: 200px;
 }

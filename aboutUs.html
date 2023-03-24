@@ -43,39 +43,53 @@
   <!------------------->
 
   <link rel="stylesheet" href="css/aboutUsstyle.css">
+
 </head>
 
 <body class="bg-black">
 
   <!-- Header -->
-  <header class="p-3 text-bg-dark menu-fixed">
+  <header class="p-3 bg menu-fixed">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <img src="img/logo.png" alt="logo" width="40" height="40">
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " onsubmit="return validateSearch(this)" role="search">
+            <input id="search" type="search" class="form-control" placeholder="Search..." aria-label="Search">
           </form>
-          <li><a href="#" class="nav-link px-2 text-secondary">Discover</a></li>
-          <li><a href="#" class="nav-link px-2 text-warning">About Us</a></li>
-          <li><a href="contactus.html" class="nav-link px-2 text-light">Contact Us</a></li>
-          <li><a href="FAQs.html" class="nav-link px-2 text-light">FAQs</a></li>
-          <li><a href="profile.html" class="nav-link px-2 text-light">Account</a></li>
+
+          <li>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown text-light" data-bs-toggle="dropdown">Account
+              </button>
+              <ul class="dropdown-menu bgcolor">
+                <li><a class="dropdown-item text-light lihov" href="library.html">Library</a></li>
+                <li><a class="dropdown-item text-light lihov" href="history.html">History</a></li>
+                <li><a class="dropdown-item text-light lihov" href="wishlist.html">Wishlist</a></li>
+              </ul>
+            </div>
+          </li>
+
+
+          <li><a href="aboutUs.html" class="nav-link px-2 text-secondary mt-2">About Us</a></li>
+          <li><a href="contactus.html" class="nav-link px-2 text-light mt-2">Contact Us</a></li>
+          <li><a id="scrol_to" class="nav-link px-2 text-light btn mt-2" href="index.html#faq">FAQs</a></li>
 
         </ul>
         <div class="text-end">
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="login.html" class="nav-link px-2 text-light">Login</a></li>
-            <li><a class="btn btn-warning" href="signup.html" role="button">Sign up</a></li>
-            <li><a href="cart.html" class="nav-link px-2 text-light"><i class="bi bi-cart3"></i></a></li>
+            <li><a href="login.html" class="btn btn-outline-primary mx-2" href="login.html" role="button">Login</a></li>
+            <li><a class="btn btn-primary" href="signup.html" role="button">Sign up</a></li>
+            <li><a href="cart.html" class="nav-link px-2 text-light mt-2"><i class="bi bi-cart3"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
   </header>
   <!------------>
+
 
   <h1><strong>About Us</strong></h1>
   <h2>Hover over the images for more info</h2>
@@ -89,7 +103,8 @@
             <p><strong>ID: </strong>2021/04740</p>
             <p><strong>Email: </strong>ahmed2104740@miuegypt.edu.eg</p>
             <div class="icons">
-              <a href="#" target="_blank"><img id="ic1" class="iconimg" src="img/icon1.png" alt="linkedin"></a>
+              <a href="https://www.linkedin.com/in/ahoss/" target="_blank"><img id="ic1" class="iconimg"
+                  src="img/icon1.png" alt="linkedin"></a>
               <a href="https://github.com/actuallyhoss" target="_blank"><img id="ic2" class="iconimg"
                   src="img/icon2.png" alt="Github"></a>
             </div>
@@ -159,7 +174,8 @@
           <p><strong>Email: </strong>ahmed2104556@miuegypt.edu.eg</p>
           <div class="icons">
             <a href="#" target="_blank"><img id="ic1" class="iconimg" src="img/icon1.png" alt="linkedin"></a>
-            <a href="#" target="_blank"><img id="ic2" class="iconimg" src="img/icon2.png" alt="Github"></a>
+            <a href="https://github.com/yehia79" target="_blank"><img id="ic2" class="iconimg" src="img/icon2.png"
+                alt="Github"></a>
           </div>
         </div>
       </div>
@@ -167,8 +183,10 @@
   </div>
 
 
+
+
   <!--footer-->
-  <footer class="footer">
+  <footer class="footer bg">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6">
@@ -227,7 +245,19 @@
     </div>
   </footer>
 
-</body>
+  <!---------------->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="src/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="js/FQAs.js"></script>
+  <script defer src="js/validations.js"></script>
 
+  <!------->
+</body>
 
 </html>

@@ -1,21 +1,19 @@
 * {
     font-family: "Barlow", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.text-bg-dark {
-    background-color: #121212 !important;
+.bg{
+    background-color: #212529;
 }
-
 .menu input {
     margin-left: 10px;
 }
 
-* {
-    padding: 5;
-    margin: 0;
-    box-sizing: border-box;
-
-}
+.list {
+    font-size: 14px;
+} 
 
 in style.css .user-pic {
     width: 40px;
@@ -24,32 +22,58 @@ in style.css .user-pic {
     margin-left: 30px;
 }
 
-.position-relative {
+a.nav-link {
+    color: gray;
+    font-size: 15px;
+    padding: 0;
+}
+
+.avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid #e84118;
-    padding: 2px
+    border: 2px solid #007bff;
+    padding: 2px;
+    flex: none;
 }
 
-#color {
-    background-color: 808080;
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
 }
 
-/*footer*/
-.footeremail {
-    background-color: #222 ;
-    border-color: #333 ;
-    border-radius: 20px ;
-    color: #fff ;
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.loginbtn:hover{
+    text-decoration: underline #007bff;
+}
+
+.bgcolor{
+    background-color: #212529;
+}
+
+.lihov:hover{
+    background-color:black;
+    opacity: 0.3;
+}
+
+.footeremil {
+    background-color: #222 !important;
+    border-color: #333 !important;
+    border-radius: 20px !important;
+    color: #fff !important;
 }
 
 ::placeholder {
-    color: #888 ;
+    color: #888 !important;
     font-size: 14px;
 }
 
-p {
+.footertext{
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -62,10 +86,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul {
     padding-left: 0;
 
@@ -73,20 +93,15 @@ ul {
 
 .footeremail:focus {
     outline: none;
-
-
 }
 
 a:hover a:focus {
-    text-decoration: none;
     outline: none;
     color: #ffffff;
-
 }
 
 .but {
     color: #fff;
-    background-color: #ffc107;
     letter-spacing: 0.5px;
     text-align: center;
     border: none;
@@ -95,16 +110,10 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover {
-    color: #ffc107;
-}
-
 .footer {
     height: 100%;
+    font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-}
-
-.footer {
     background-color: #121212;
     padding-top: 70px;
 }
@@ -146,7 +155,8 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: #ffc107;
+    color: #007bff;
+    text-decoration: none;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -154,7 +164,6 @@ a:hover a:focus {
 }
 
 .footer-wedget .footer-newslatter form {
-
     position: relative;
 }
 
@@ -184,4 +193,41 @@ a:hover a:focus {
     border: none;
 }
 
-/*footer part*/
+
+
+/*body*/
+
+.position-relative {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    padding: 2px;
+}
+
+a.nav-link {
+    color: #f3f3f3;
+    font-size: 18px;
+    padding: 0;
+}
+
+input:focus {
+    outline: 0px;
+    box-shadow: none;
+}
+
+.containerr {
+    padding: 30px;
+    margin: 50px;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.messagebox{
+    width: 900px;
+    height: 610px;
+
+}

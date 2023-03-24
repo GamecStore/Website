@@ -1,17 +1,19 @@
 * {
     font-family: "Barlow", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+.bg{
+    background-color: #212529;
+}
 .menu input {
     margin-left: 10px;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
+.list {
+    font-size: 14px;
+} 
 
 in style.css .user-pic {
     width: 40px;
@@ -19,6 +21,47 @@ in style.css .user-pic {
     cursor: pointer;
     margin-left: 30px;
 }
+
+a.nav-link {
+    color: gray;
+    font-size: 15px;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.loginbtn:hover{
+    text-decoration: underline #007bff;
+}
+
+.bgcolor{
+    background-color: #212529;
+}
+
+.lihov:hover{
+    background-color:black;
+    opacity: 0.3;
+}
+
+/*footer*/
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -31,7 +74,7 @@ in style.css .user-pic {
     font-size: 14px;
 }
 
-.footertext {
+.footertext{
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -44,10 +87,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul {
     padding-left: 0;
 
@@ -55,21 +94,15 @@ ul {
 
 .footeremail:focus {
     outline: none;
-
-
 }
 
 a:hover a:focus {
-    text-decoration: none;
     outline: none;
     color: #ffffff;
-
 }
 
 .but {
-
     color: #fff;
-    background-color: #ffc107;
     letter-spacing: 0.5px;
     text-align: center;
     border: none;
@@ -78,18 +111,10 @@ a:hover a:focus {
     width: 100px;
 }
 
-.linb:hover {
-
-    color: #ffc107;
-}
-
 .footer {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-}
-
-.footer {
     background-color: #121212;
     padding-top: 70px;
 }
@@ -131,7 +156,8 @@ a:hover a:focus {
 }
 
 .footer-wedget ul li a:hover {
-    color: #ffc107;
+    color: #007bff;
+    text-decoration: none;
 }
 
 .footer-wedget .footer-newslatter p {
@@ -139,7 +165,6 @@ a:hover a:focus {
 }
 
 .footer-wedget .footer-newslatter form {
-
     position: relative;
 }
 
@@ -174,7 +199,6 @@ a:hover a:focus {
 
 h1{
     color: white;
-    font-family: "Barlow", Helvetica, sans-serif;
     font-size: 50px;
     max-width: 410px;
     width: 100%;
@@ -183,6 +207,7 @@ h1{
     border-radius: 1.5em;
     box-shadow: 0 1px 2px rgba(red, green, blue, alpha);
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -203,7 +228,6 @@ h2 {
     position: relative;
     width: 20%;
     float: left;
-    
 }
 
 .container1:hover .overlay {
@@ -228,12 +252,11 @@ h2 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(to bottom, rgba(91, 90, 90,0), rgb(53, 52, 52));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(91, 90, 90));
     backdrop-filter: blur(10px);
 }
 
 .text {
-    font-family: "Inter", serif;
     color: white;
     position: absolute;
     top: 50%;
@@ -244,27 +267,26 @@ h2 {
     text-align: left;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
-    font-size: 17px;
+    font-size: 16px;
     width: fit-content;
 }
 
 .icons{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 1px;
+    justify-items: center
+}
+
+.iconimg{
+    width: 25%;;
 }
 
 #ic1{
     margin-left: 65px;
 }
+
 #ic2{
     margin-right: 65px;
-}
-
-.iconimg{
-    width:25%;
 }
 
 .team.image{
@@ -277,3 +299,4 @@ h2 {
 .team.container1.btn_grp{
     display: flex;
 }
+
