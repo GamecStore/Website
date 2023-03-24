@@ -40,13 +40,13 @@
         <!------------------->
         <style>
             .accordion {
-                margin: 10px;
+                /* margin: 10px; */
                 padding: 0;
             }
 
-            .accordion-item {
+            /* .accordion-item {
                 padding: 0;
-            }
+            } */
         </style>
 
     </head>
@@ -278,7 +278,7 @@
         <div class="container  my-7 rounded-3">
             <div class="row">
 
-                <div class="col-12 col-md-8 bg-dark rounded-3 " style="max-height: 2000px;">
+                <div class="col-12 col-md-8 bg-dark rounded-3 " style="max-height: 10000px;">
                     <div class="row">
                         <!-- <div class="col-2 md-2">
                             <img src="img/red dead redemption.jpg" alt="An Image of the game read dead redemption 2"
@@ -339,33 +339,41 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="bi bi-paypal"></i> paypal
+                                        <i class="bi bi-paypal"></i>
+                                        paypal
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <img src="" alt="">
+                                        <!-- <i class="bi bi-paypal"></i> -->
+                                        <h6>Required: Save this payment method for future purchases?</h6>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                No
+                                            </label>
+                                        </div>
+                                        <p>By choosing to save your payment information, this payment method will be
+                                            selected as the default for all purchases made using Epic Games payment,
+                                            including purchases in Fortnite, Rocket League, Fall Guys and the Epic Games
+                                            Store. You can delete your saved payment information anytime on this payment
+                                            screen or by logging in to your Epic Games account, and selecting payment
+                                            management in your account settings. Learn more.
+                                            You will be directed to PayPal to authorize your payment method, then you
+                                            will be returned to Epic Games to complete this purchase.</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <!-- 
-                        <div class="col-5 md-2">
-                            <p class=" text-white mt-4 price1">EGP 200.00 </p>
-                            <br>
-                            <br>
-                            <div style="padding-left: 56px; padding-top:25px ;">
-                                <div class=" text-white mt-2 removeText btn">Remove From Cart</div>
-                                <div class=" text-white mt-2 removeText btn">Add to Wishlist</div>
-                            </div>
-                        </div> -->
-
-
-
-                        <!-- <a href="#" class="col-12 col-md-2 text-white my-7 btn remove ">REMOVE</a>     -->
-
                     </div>
 
                 </div>
