@@ -100,11 +100,11 @@
         </header>
         <!--------->
         <!--edit profile-->
-        <div class="editprofile">
+        <div class="editprofile needs-validation" novalidate>
             <div class="row gutters">
                 <div class="col-xl-3 col-lg-3 col-md-15 col-sm-12 col-12">
                     <div class="card h-100">
-                        <div class="card-body bg-dark">
+                        <div class="card-body bg-dark ">
                             <div class="account-settings">
                                 <div class="user-profile">
                                     <div class="user-avatar">
@@ -121,55 +121,70 @@
                         </div>
                     </div>
                 </div>
+                <!--right side in the user-->
                 <div class="col-xl-9 col-lg-9 col-md-15 col-sm-12 col-12">
                     <div class="card h-100">
-                        <div class="card-body bg-dark">
+                        <div class="card-body bg-dark text-white">
                             <div class="row gutters">
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <h6 class="mb-3 text-primary">Personal Details</h6>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="fullName">Full Name</label>
-                                        <input type="text" class="form-control" id="fullName"
-                                            placeholder="Enter full name">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="eMail">Email</label>
-                                        <input type="email" class="form-control" id="eMail"
-                                            placeholder="Enter email ID">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="phone">Phone</label>
-                                        <input type="text" class="form-control" id="phone"
-                                            placeholder="Enter phone number">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="password">password</label>
-                                        <input type="password" class="form-control" id="password"
-                                            placeholder="password">
+                                <div class="row">
+                                    <div id='form' class="col-8 col-md-4  mx-auto">
+                                        <h3 id="form__head" class="mb-4  ">edit profile</h3>
+                                        <form id="newform" action="#" class="needs-validation" novalidate>
+                                            <div class="form-group p-1">
+                                                <label for="username"> Username </label>
+
+                                                <input type="text" class="form-control" id="username" name="username"
+                                                    required />
+
+                                                <div class="invalid-feedback">username can`t username cannot be blank or
+                                                    have space
+                                                </div>
+                                                <div class="valid-feedback">Looks Good</div>
+
+                                            </div>
+                                            <div class="form-group p-1">
+                                                <label for="email"> Email </label>
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                    required />
+                                                <div id="email-validation" class="invalid-feedback">Please Check Mail
+                                                    again.</div>
+
+                                            </div>
+                                            <div class="form-group p-1">
+                                                <label for="password"> Password </label>
+                                                <input type="password" class="form-control" name="password"
+                                                    id="password" required />
+                                                <div class="invalid-feedback">Please make sure your password contains at
+                                                    least (a
+                                                    Capital
+                                                    letter, a number and a
+                                                    special charcter).</div>
+
+
+                                            </div>
+                                            <button type="submit"
+                                                class=" mt-4 d-block w-100 btn btn-primary">Submit</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
                             <div class="row gutters">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="text-right">
-                                        <button type="button" id="submit" name="submit"
-                                            class="btn btn-secondary">Cancel</button>
-                                        <button type="button" id="submit" name="submit"
-                                            class="btn btn-primary">Update</button>
+
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!--right side in the user-->
+
+                <!--trial-->
+
+                <!--trial-->
             </div>
         </div>
         <!--edit profile-->
@@ -315,7 +330,7 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
         <script src="js/FQAs.js"></script>
-        <script src="js/validations.js"></script>
+        <script src="js/editprofile.js"></script>
 
         <!------->
     </body>
