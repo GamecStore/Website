@@ -38,8 +38,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <!------------------->
 
   <link rel="stylesheet" href="css/library.css">
@@ -59,18 +58,18 @@
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " onsubmit="return validateSearch(this)" role="search">
             <input id="search" type="search" class="form-control" placeholder="Search..." aria-label="Search">
           </form>
-          
+
           <li>
             <div class="dropdown">
-            <button type="button" class="btn dropdown text-light" data-bs-toggle="dropdown">Account
-            </button>
-            <ul class="dropdown-menu bgcolor">
-              <li><a class="dropdown-item text-light lihov" href="library.html">Library</a></li>
-              <li><a class="dropdown-item text-light lihov" href="history.html">History</a></li>
-              <li><a class="dropdown-item text-light lihov" href="wishlist.html">Wishlist</a></li>
-            </ul>
-          </div>
-        </li>
+              <button type="button" class="btn dropdown text-light" data-bs-toggle="dropdown">Account
+              </button>
+              <ul class="dropdown-menu bgcolor">
+                <li><a class="dropdown-item text-light lihov" href="library.html">Library</a></li>
+                <li><a class="dropdown-item text-light lihov" href="history.html">History</a></li>
+                <li><a class="dropdown-item text-light lihov" href="wishlist.html">Wishlist</a></li>
+              </ul>
+            </div>
+          </li>
 
 
           <li><a href="aboutUs.html" class="nav-link px-2 text-light mt-2">About Us</a></li>
@@ -89,124 +88,119 @@
     </div>
   </header>
   <!------------>
-    <!-- body -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content bg-dark p-4">
-                <div class="modal-header text-white">
-                    <h5 class="modal-title" id="staticBackdropLabel">CyberPunk 2077</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-
-                <div class="modal-body text-center">
-                    <img src="img/300px-Cyberpunk_2077_cover.png" alt="">
-                </div>
-                <div class="d-block text-white">
-                    <p>Play Time: 10hrs <br>Last Played : date</p>
-
-                </div>
-                <button type="button" class="btn btn-secondary my-3" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Download</button>
-            </div>
+  <!-- body -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content bg-dark p-4">
+        <div class="modal-header text-white">
+          <h5 class="modal-title" id="staticBackdropLabel">CyberPunk 2077</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+
+
+        <div class="modal-body text-center">
+          <img src="img/300px-Cyberpunk_2077_cover.png" alt="">
+        </div>
+        <div class="d-block text-white">
+          <p>Play Time: 10hrs <br>Last Played : date</p>
+
+        </div>
+        <button type="button" class="btn btn-secondary my-3" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Download</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- title -->
+  <div class="container my-2 rounded-3 my-3 p-4 bkcol">
+    <div class="row text-center">
+      <div class="">
+        <h1 class="text-white my-3">Library</h1>
+      </div>
     </div>
 
+    <!-- Search Form -->
+    <div class="row text-sm-center my-3">
+      <div class="col-lg-10 col-sm-12  ">
+        <form id="gameSearchForm" action="#">
+          <input id="gameSearch" class="w-100 bg-black border-1 rounded-3 p-1 text-white  " type="text"
+            placeholder="Search Library">
+        </form>
+      </div>
+      <div class="col-2 text-sm-center h-100">
 
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-            </div>
-        </div>
+        <select class="bg-black text-white rounded-3 my-3 m-lg-0 border-0 p-1" name="filter" id="gameFilter">
+          <option disabled selected value="" style="display: none;">Filters</option>
+          <option value="played">recently Played</option>
+          <option value="purchased">recently purchased</option>
+          <option value="a-z">A-Z</option>
+          <option value="revent">Z-A</option>
+          <option value="revent">Download Size </option>
+        </select>
+
+      </div>
     </div>
 
-    <!-- title -->
-    <div class="container my-2 rounded-3 my-3 p-4 bkcol">
-        <div class="row text-center">
-            <div class="">
-                <h1 class="text-white my-3">Library</h1>
-            </div>
-        </div>
+    <!-- Games -->
+    <div class="row">
+      <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto libraryItem" style="width: 16.5rem ">
 
-        <!-- Search Form -->
-        <div class="row text-sm-center my-3">
-            <div class="col-lg-10 col-sm-12  ">
-                <form id="gameSearchForm" action="#">
-                    <input id="gameSearch" class="w-100 bg-black border-1 rounded-3 p-1 text-white  " type="text"
-                        placeholder="Search Library">
-                </form>
-            </div>
-            <div class="col-2 text-sm-center h-100">
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto btn   " alt="Photo of a game"
+          data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 
-                <select class="bg-black text-white rounded-3 my-3 m-lg-0 border-0 p-1" name="filter" id="gameFilter">
-                    <option disabled selected value="" style="display: none;">Filters</option>
-                    <option value="played">recently Played</option>
-                    <option value="purchased">recently purchased</option>
-                    <option value="a-z">A-Z</option>
-                    <option value="revent">Z-A</option>
-                    <option value="revent">Download Size </option>
-                </select>
+      </div>
+      <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
 
-            </div>
-        </div>
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  " alt="Photo of a game">
+      </div>
+      <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
 
-        <!-- Games -->
-        <div class="row">
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto libraryItem" style="width: 16.5rem ">
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  " alt="Photo of a game">
+      </div>
+      <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
 
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto btn   " alt="Photo of a game"
-                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  " alt="Photo of a game">
+      </div>
+      <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
 
-            </div>
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  " alt="Photo of a game">
+      </div>
 
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-            </div>
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
+      <div class="col-sm-12 col-lg-3   my-3 mx-auto   " style="width: 15rem ">
 
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-            </div>
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
-
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-            </div>
-            <div class="col-sm-12 col-lg-3 text-md-center  my-3 mx-auto   " style="width: 15rem ">
-
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-            </div>
-
-            <div class="col-sm-12 col-lg-3   my-3 mx-auto   " style="width: 15rem ">
-
-                <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  "
-                    alt="Photo of a game">
-            </div>
+        <img src="img/300px-Cyberpunk_2077_cover.png" class=" img-fluid mx-auto  libraryItem  " alt="Photo of a game">
+      </div>
 
 
 
 
-        </div>
     </div>
+  </div>
 
 
 
-<!--footer-->
+  <!--footer-->
   <footer class="footer bg">
     <div class="container">
       <div class="row">
