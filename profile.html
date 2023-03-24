@@ -41,24 +41,11 @@
     <!------------------->
 
     <link rel="stylesheet" href="css/profile.css">
-    <style>
-        body {
-            background-color: black;
-        }
 
-        .payment {
-            padding-left: 12px;
-            margin: 30px;
-        }
-
-        .editprofile {
-            margin: 30px;
-            padding-left: 12px;
-        }
-    </style>
 </head>
 
-<body>
+<body class="bg-black">
+
     <!-- Header -->
     <header class="p-3 bg menu-fixed">
         <div class="container">
@@ -67,88 +54,105 @@
                     <img src="img/logo.png" alt="logo" width="40" height="40">
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " onsubmit="return validateSearch(this)"
+                        role="search">
+                        <input id="search" type="search" class="form-control" placeholder="Search..."
+                            aria-label="Search">
                     </form>
-                    <li><a href="#" class="nav-link px-2 text-secondary">Discover</a></li>
-                    <li><a href="aboutUs.html" class="nav-link px-2 text-light">About Us</a></li>
-                    <li><a href="contactus.html" class="nav-link px-2 text-light">Contact Us</a></li>
-                    <li><a href="FAQs.html" class="nav-link px-2 text-light">FAQs</a></li>
-                    <li><a href="profile.html" class="nav-link px-2 text-light">Account</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown text-light" data-bs-toggle="dropdown">Account
+                            </button>
+                            <ul class="dropdown-menu bgcolor">
+                                <li><a class="dropdown-item text-light lihov" href="library.html">Library</a></li>
+                                <li><a class="dropdown-item text-light lihov" href="history.html">History</a></li>
+                                <li><a class="dropdown-item text-light lihov" href="wishlist.html">Wishlist</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li><a href="aboutUs.html" class="nav-link px-2 text-light mt-2">About Us</a></li>
+                    <li><a href="contactus.html" class="nav-link px-2 text-light mt-2">Contact Us</a></li>
+                    <li><a id="scrol_to" class="nav-link px-2 text-light btn mt-2" href="index.html#faq">FAQs</a></li>
+
                 </ul>
                 <div class="text-end">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="login.html" class="nav-link px-2 text-light">Login</a></li>
-                        <li><a class="btn btn-warning" href="signup.html" role="button">Sign up</a></li>
-                        <li><a href="cart.html" class="nav-link px-2 text-light"><i class="bi bi-cart3"></i></a>
+                        <li><a href="cart.html" class="nav-link px-2 text-light mt-2"><i class="bi bi-cart3"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-    <!--header-->
+    <!------------>
     <!--edit profile-->
-    <div class="editprofile">
-        <div class="row gutters">
-            <div class="col-xl-3 col-lg-3 col-md-15 col-sm-12 col-12">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <div class="account-settings">
-                            <div class="user-profile">
-                                <div class="user-avatar">
-                                    <img src="img/profile.png" alt="user account">
+    <div class="mb-3">
+        <div class="editprofile text-white bg">
+            <div class="row gutters">
+                <div class="col-xl-3 col-lg-3 col-md-15 col-sm-12 col-12">
+                    <div class="card h-100 bdcol">
+                        <div class="card-body">
+                            <div class="account-settings">
+                                <div class="user-profile bdcol">
+                                    <div class="user-avatar"><img src="img/profile.png" alt="user account"></div>
+                                    <h5 class="user-name">User account</h5>
+                                    <h6 class="user-email">account@gmail.com</h6>
                                 </div>
-                                <h5 class="user-name">User account</h5>
-                                <h6 class="user-email">account@gmail.com</h6>
-                            </div>
-                            <div class="about">
-                                <h5 class="mb-2 text-primary">About</h5>
-                                <p>user account</p>
+                                <div class="about">
+                                    <h5 class="mb-2 text-primary">About</h5>
+                                    <p>user account</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-9 col-lg-9 col-md-15 col-sm-12 col-12">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <div class="row gutters">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <h6 class="mb-3 text-primary">Personal Details</h6>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="form-group">
-                                    <label for="fullName">Full Name</label>
-                                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                <div class="col-xl-9 col-lg-9 col-md-15 col-sm-12 col-12">
+                    <div class="card h-100 bdcol">
+                        <div class="card-body">
+                            <div class="row gutters">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h6 class="mb-3 text-primary">Personal Details</h6>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail">Email</label>
+                                        <input type="email" class="form-control" id="eMail"
+                                            placeholder="Enter email ID">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input type="text" class="form-control" id="phone"
+                                            placeholder="Enter phone number">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="password">password</label>
+                                        <input type="password" class="form-control" id="password"
+                                            placeholder="password">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="form-group">
-                                    <label for="eMail">Email</label>
-                                    <input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="form-group">
-                                    <label for="phone">Phone</label>
-                                    <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="form-group">
-                                    <label for="password">password</label>
-                                    <input type="password" class="form-control" id="password" placeholder="password">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gutters">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="text-right">
-                                    <button type="button" id="submit" name="submit"
-                                        class="btn btn-secondary">Cancel</button>
-                                    <button type="submit" id="submit" name="submit"
-                                        class="btn btn-primary">Update</button>
+                            <div class="row gutters">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="text-right">
+                                        <button type="button" id="submit" name="submit"
+                                            class="btn btn-secondary">Cancel</button>
+                                        <button type="submit" id="submit" name="submit"
+                                            class="btn btn-primary">Update</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -156,92 +160,163 @@
                 </div>
             </div>
         </div>
+        <!------------->
+        <!--payment methods-->
+        <div class="payment">
+            <div class="col-md-15 mb-2 ">
+                <div class="card mb-2 bdcol">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0">shipping details</h5>
+                    </div>
+                    <div class="card-body bdcol">
+                        <form action="" method="get" onsubmit="return validatePaymentDetails(this)">
+                            <h5 class="mb-4">Payment</h5>
 
+                            <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="checkoutForm3" checked />
+                                <label class="form-check-label" for="checkoutForm3">Credit card</label>
+                            </div>
 
+                            <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="checkoutForm4" />
+                                <label class="form-check-label" for="checkoutForm4">
+                                    Debit card
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-1">
+                                <input required class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="checkoutForm5" />
+                                <label class="form-check-label" for="checkoutForm5">
+                                    Paypal
+                                </label>
+                            </div>
+
+                            <div class="row mb-1">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="formNameOnCard">Name on card</label>
+                                        <input required type="text" id="formNameOnCard" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="formCardNumber">Credit card number</label>
+                                        <input type="text" id="formCardNumber" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-3">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="formExpiration">Expiration</label>
+
+                                        <input type="text" id="formExpiration" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="formCVV">CVV</label>
+
+                                        <input type="text" id="formCVV" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">
+                                Continue to checkout
+                            </button>
+                            </a>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <!--edit profile-->
-    <!--payment methods-->
-    <div class="payment">
-        <div class="col-md-15 mb-2 ">
-            <div class="card mb-2">
-                <div class="card-header py-3">
-                    <h5 class="mb-0">shipping details</h5>
-                </div>
-                <div class="card-body">
-                    <form action="" method="get" onsubmit="return validatePaymentDetails(this)">
-                        <h5 class="mb-4">Payment</h5>
 
-                        <div class="form-check">
-                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
-                                id="checkoutForm3" checked />
-                            <label class="form-check-label" for="checkoutForm3">
-                                Credit card
-                            </label>
-                        </div>
 
-                        <div class="form-check">
-                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
-                                id="checkoutForm4" />
-                            <label class="form-check-label" for="checkoutForm4">
-                                Debit card
-                            </label>
-                        </div>
-
-                        <div class="form-check mb-1">
-                            <input required class="form-check-input" type="radio" name="flexRadioDefault"
-                                id="checkoutForm5" />
-                            <label class="form-check-label" for="checkoutForm5">
-                                Paypal
-                            </label>
-                        </div>
-
-                        <div class="row mb-1">
-                            <div class="col">
-                                <div class="form-outline">
-                                    <input required type="text" id="formNameOnCard" class="form-control" />
-                                    <label class="form-label" for="formNameOnCard">Name on card</label>
-                                </div>
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-about">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/logo.png" alt="logo" width="50%"></a>
                             </div>
-                            <div class="col">
-                                <div class="form-outline">
-                                    <input type="text" id="formCardNumber" class="form-control" />
-                                    <label class="form-label" for="formCardNumber">Credit card number</label>
-                                </div>
-                            </div>
+                            <p>payment methods</p>
+                            <a href="#"><img src="img/payment.png" alt="logo" width="30%"></a>
                         </div>
+                    </div>
 
-                        <div class="row mb-4">
-                            <div class="col-3">
-                                <div class="form-outline">
-                                    <input type="text" id="formExpiration" class="form-control" />
-                                    <label class="form-label" for="formExpiration">Expiration</label>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="form-outline">
-                                    <input type="text" id="formCVV" class="form-control" />
-                                    <label class="form-label" for="formCVV">CVV</label>
-                                </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-wedget">
+                            <h6>shopping</h6>
+                            <ul>
+                                <li><a href="#">Games </a></li>
+                                <li><a href="#"> trending Games </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-wedget">
+                            <h6>LINKS</h6>
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#"> Payment methods </a></li>
+                                <li><a href="#"> Return and Exchanges </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-wedget">
+                            <h6>Newsletter</h6>
+                            <div class="footer-newslatter">
+                                <p class="footertext">Be the first to know about new arrivals,sales & promos!</p>
+                                <form action="#">
+                                    <input type="text" class="footeremail" placeholder="Your Email">
+                                    <button type="submit"><span><i class="fa fa-envelope"
+                                                arial-hidden="true"></i></span>
+                                        submit</button>
+                                </form>
                             </div>
                         </div>
-
-                        <button class="btn btn-primary btn-lg btn-block" type="submit">
-                            Continue to checkout
-                        </button>
-                        </a>
-                    </form>
+                    </div>
                 </div>
 
-
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="footer-copyright-text">
+                            <p class="footertext"> Copyright &copy; 2023 All rights reserved | the template is made with
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="aboutUs.html">Gamec
+                                    Group</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div>
-        <!-- Credit card form -->
-        <!--payment methods -->
-        <!--footer copy paste-->
+        </footer>
 
         <!---------------->
-        
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="src/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script src="js/FQAs.js"></script>
+        <script defer src="js/validations.js"></script>
+
+
+
 </body>
+
 
 </html>
