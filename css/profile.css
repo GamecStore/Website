@@ -11,7 +11,7 @@
 
 .list {
     font-size: 14px;
-} 
+}
 
 in style.css .user-pic {
     width: 40px;
@@ -46,16 +46,16 @@ input:focus {
 }
 
 
-.loginbtn:hover{
+.loginbtn:hover {
     text-decoration: underline #007bff;
 }
 
-.bgcolor{
+.bgcolor {
     background-color: #212529;
 }
 
-.lihov:hover{
-    background-color:black;
+.lihov:hover {
+    background-color: black;
     opacity: 0.3;
 }
 
@@ -72,7 +72,7 @@ input:focus {
     font-size: 14px;
 }
 
-.footertext{
+.footertext {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -192,16 +192,143 @@ a:hover a:focus {
     border: none;
 }
 
-.bg{
+.bg {
     background-color: #212529;
 }
 
+/*slideshow*/
+
+.carImage {
+    height: 600px;
+    object-fit: contain;
+    width: fit-content;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: Inter, serif;
+    font-family: Inter, serif;
+    line-height: 0.5;
+}
+
+.rspac {
+    font-family: "Inter", serif;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    letter-spacing: 7px;
+    margin-left: 10px;
+}
+
+.slidepara {
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-size: 16px;
+    font-size: 16px;
+}
+
+.cmText {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: justify;
+    margin: 45px 0px 0px 10px;
+}
+
+.botbtn {
+    font-family: "Inter", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 165px;
+}
+
+.pricpara {
+    font-family: "Inter", serif;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    margin: 45px 0px 0px 8px;
+}
+
+.Pbt {
+    font-family: "Inter", serif;
+    line-height: 2;
+    padding: 280px 0px 0px 0px;
+    align-items: center;
+}
+
+.repr {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.botbtn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.cross {
+
+    text-decoration: line-through;
+    color: #888;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    backdrop-filter: blur(10px);
+}
+
+.containerr:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 /**body*/
-.bdcol{
+.bdcol {
     background-color: #212529;
     color: white;
     border: none;
 }
+
 body {
     background-color: black;
 }
@@ -215,6 +342,7 @@ body {
     margin: 30px;
     padding-left: 12px;
 }
+
 .account-settings .user-profile {
     margin: 0 0 1rem 0;
     padding-bottom: 1rem;
