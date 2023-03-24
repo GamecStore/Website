@@ -56,8 +56,8 @@
           <img src="img/logo.png" alt="logo" width="40" height="40">
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " onsubmit="return validateSearch(this)" role="search">
+            <input id="search" type="search" class="form-control" placeholder="Search..." aria-label="Search">
           </form>
           
           <li>
@@ -67,6 +67,7 @@
             <ul class="dropdown-menu bgcolor">
               <li><a class="dropdown-item text-light lihov" href="library.html">Library</a></li>
               <li><a class="dropdown-item text-light lihov" href="history.html">History</a></li>
+              <li><a class="dropdown-item text-light lihov" href="wishlist.html">Wishlist</a></li>
             </ul>
           </div>
         </li>
@@ -120,12 +121,10 @@
         </div>
 
         <div class="mb-3">
-          <label for="confirmPassword" class="form-label text-white">Confirm Password<span
-              class="asteric">*</span></label>
-          <input type="password" class="form-control" id="confirmPassword" aria-describedby="passwordhelp"
-            placeholder="Re-Enter your password">
-        </div>
+          <label for="confirmPassword" class="form-label text-white">Confirm Password<span class="asteric">*</span></label>
+          <input type="password" class="form-control" id="confirmPassword" placeholder="Re-Enter your password">
         <div class="div" id="confirmPasswordError"></div>
+      </div>
 
         <div class="mb-3">
           <label for="dob" class="form-label text-white">Date of Birth<span class="asteric">*</span></label>
