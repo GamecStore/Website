@@ -63,15 +63,15 @@ function validate(form) {
 
 
 
-    var dobInput = document.getElementById("dob");
+    let dobInput = document.getElementById("dob");
 
-    var dobValue = dobInput.value;
+    let dobValue = dobInput.value;
 
-    var dob = new Date(dobValue);
+    let dob = new Date(dobValue);
 
-    var ageDiff = Date.now() - dob.getTime();
-    var ageDate = new Date(ageDiff);
-    var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+    let ageDiff = Date.now() - dob.getTime();
+    let ageDate = new Date(ageDiff);
+    let age = Math.abs(ageDate.getUTCFullYear() - 1970);
     // Check if the age is less than 18
     if (age < 18) {
 
