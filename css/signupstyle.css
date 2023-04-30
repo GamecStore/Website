@@ -196,21 +196,18 @@ a:hover a:focus {
 
 /*form*/
 .bgimg{
-    background-image: url("./../img/bg.gif");
-    background-size: 80%; /* Resize the background image to cover the entire container */
-    background-repeat: repeat; /* Do not repeat the image */
-    background-position-x: center;
-    object-fit: fill;
+    background-image: url("./../img/bkg.gif");
+    /* background-image: url("./../img/bg.gif");
+    background-position-x: 50%;
+    background-position-y: top; */
+
+    
 
 }
 
 
 .formlayout {
-    border: solid #212529;
-    background-color: #212529;
-    opacity: 0.8;
-    font-family: 'Almarai', sans-serif;
-    padding: 50px 250px 50px 250px;
+    background-color: #212529; 
 }
 
 
@@ -218,9 +215,8 @@ a:hover a:focus {
     color: red;
 }
 
-.head3 {
-    font-size: 38px;
-    padding: 5px;
+strong{
+    font-weight: bolder;
 }
 
 .acc {
@@ -234,4 +230,8 @@ a:hover a:focus {
 
 .err{
     color: red;
+}
+
+.formlayout{
+    background-color: rgb(33, 37, 41,0.8);
 }
