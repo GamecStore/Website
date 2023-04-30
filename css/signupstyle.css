@@ -7,6 +7,7 @@
 .bg{
     background-color: #212529;
 }
+
 .menu input {
     margin-left: 10px;
 }
@@ -115,7 +116,6 @@ a:hover a:focus {
     height: 100%;
     font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-    background-color: #121212;
     padding-top: 70px;
 }
 
@@ -195,21 +195,22 @@ a:hover a:focus {
 }
 
 /*form*/
+.bgimg{
+    background-image: url("./../img/bg.gif");
+    background-size: 80%; /* Resize the background image to cover the entire container */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-position-x: center;
+    object-fit: fill;
+
+}
+
+
 .formlayout {
     border: solid #212529;
     background-color: #212529;
-    padding: 30px 60px 100px 30px;
-    margin: 60px;
-}
-
-.containersign {
+    opacity: 0.8;
     font-family: 'Almarai', sans-serif;
-    display: flex;
-    margin: 80px;
-}
-
-.image {
-    margin: 50px;
+    padding: 50px 250px 50px 250px;
 }
 
 
@@ -220,7 +221,6 @@ a:hover a:focus {
 .head3 {
     font-size: 38px;
     padding: 5px;
-    text-align: center;
 }
 
 .acc {

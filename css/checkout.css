@@ -12,14 +12,6 @@
 .list {
     font-size: 14px;
 }
-.bgcolor {
-    background-color: #212529;
-}
-.lihov:hover {
-    background-color: black;
-    opacity: 0.3;
-}
-
 
 in style.css .user-pic {
     width: 40px;
@@ -43,15 +35,31 @@ a.nav-link {
     flex: none;
 }
 
-/*checkout */
-img {
-    display: block;
-    max-width:230px;
-    max-height:95px;
-    width: auto;
-    height: auto;
-  }
-/*checkout */
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.loginbtn:hover {
+    text-decoration: underline #007bff;
+}
+
+.bgcolor {
+    background-color: #212529;
+}
+
+.lihov:hover {
+    background-color: black;
+    opacity: 0.3;
+}
+
+/*footer*/
 .footeremil {
     background-color: #222 !important;
     border-color: #333 !important;
@@ -66,14 +74,13 @@ img {
 
 .footertext {
     font-size: 15px;
-    font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
     font-weight: 400;
     line-height: 25px;
     margin: 0 0 15px 0;
 }
 
-img {
+.imgg {
     max-width: 100%;
 }
 
@@ -103,9 +110,7 @@ a:hover a:focus {
 
 .footer {
     height: 100%;
-    font-family: "Nunito sans ,sans-serif";
     -webkit-font-smoothing: antialiased;
-    background-color: #121212;
     padding-top: 70px;
 }
 
@@ -186,4 +191,14 @@ a:hover a:focus {
 
 .bg {
     background-color: #212529;
+}
+/*-------*/
+
+/*checkout */
+.imgg {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
 }
