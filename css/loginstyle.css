@@ -195,10 +195,7 @@ a:hover a:focus {
 }
 /*form*/
 .formlayout {
-    border: solid #212529;
     background-color: #212529;
-    padding: 80px;
-    margin: 70px;
 }
 
 .containerlog {

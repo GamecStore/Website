@@ -92,8 +92,48 @@
   </header>
   <!------------>
 
-  <!--sign up form-->
-  <div class="containerlog">
+  <!--log in form-->
+
+  <div class="d-flex flex-row justify-content-center">
+    <div class="m-5">
+      <img src="img/Let'sPlay.jpg" class="d-block m-5" alt="welcome">
+    </div>
+
+    <div class="m-5">
+      <div class="rounded-3 formlayout w-50 p-5 m-5 ">
+        <div class="h2 mb-4 text-white text-center"><strong>Hello Again!</strong></div>
+        <form class="row g-3" action="" method="get" onsubmit="return validateLogin(this)">
+          <div class="col-12">
+            <label for="email" class="form-label text-white">Email<span class="asteric">*</span></label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <div id="emailError"></div>
+          </div>
+
+          <div class="col-12">
+            <label for="password" class="form-label text-white">Password<span class="asteric">*</span></label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            <div id="passwordError"></div>
+          </div>
+
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <div class="p-2 mt-3"><button type="submit" class="btn btn-primary mx-2">Login</button></div>
+              <div class="p-2 mt-3"><a href="signup.html"><button type="button"
+                    class="mx-2 btn btn-outline-primary">Register</button></a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <div class="containerlog">
+
     <img src="img/Let'sPlay.jpg" class="img-fluid image" alt="welcome">
     <div class="formlayout rounded-3 ">
       <h3 class="head3 mb-4 text-white"><strong>Hello Again!</strong></h3>
@@ -117,7 +157,13 @@
         </div>
       </form>
     </div>
-  </div>
+  </div> -->
+
+
+
+
+
+
 
   <!--footer-->
   <footer class="footer">
