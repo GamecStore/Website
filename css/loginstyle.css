@@ -193,9 +193,20 @@ a:hover a:focus {
 .bg{
     background-color: #212529;
 }
+
+
 /*form*/
+.bgimg{
+    background-image: url("./../img/log.gif");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    background-color: #13032B;
+}
+
 .formlayout {
-    background-color: #212529;
+    background-color: rgb(33, 37, 41,0.8)
 }
 
 .containerlog {

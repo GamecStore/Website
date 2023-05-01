@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///D:/Studying/Projects/web%20project/login.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./Gamec_files/logo.png" type="image/x-icon">
+
+  <title>Gamec</title>
+  <!--links-->
+  <link href="./Gamec_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <script src="./Gamec_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <script src="./Gamec_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+  <!---->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Gamec_files/css2" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Gamec_files/css2(1)" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Gamec_files/css2(2)" rel="stylesheet">
+  <link rel="stylesheet" href="./Gamec_files/css">
+  <!----------->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./Gamec_files/bootstrap.css">
+  <link rel="stylesheet" href="./Gamec_files/bootstrap-icons.css">
+  <link rel="stylesheet" href="./Gamec_files/bootstrap.min(1).css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!------------------->
+
+  <link rel="stylesheet" href="./Gamec_files/style.css">
+  <link rel="stylesheet" href="./Gamec_files/loginstyle.css">
+
+</head>
+
+<body class="bg-black">
+
+  <!-- Header -->
+  <header class="p-3 bg menu-fixed">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="file:///D:/Studying/Projects/web%20project/index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="./Gamec_files/logo.png" alt="logo" width="40" height="40">
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " onsubmit="return validateSearch(this)" role="search">
+            <input id="search" type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <li>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown text-light" data-bs-toggle="dropdown">Account
+              </button>
+              <ul class="dropdown-menu bgcolor">
+                <li><a class="dropdown-item text-light lihov" href="file:///D:/Studying/Projects/web%20project/profile.html">Profile</a></li>
+                <li><a class="dropdown-item text-light lihov" href="file:///D:/Studying/Projects/web%20project/library.html">Library</a></li>
+                <li><a class="dropdown-item text-light lihov" href="file:///D:/Studying/Projects/web%20project/history.html">History</a></li>
+                <li><a class="dropdown-item text-light lihov" href="file:///D:/Studying/Projects/web%20project/wishlist.html">Wishlist</a></li>
+
+              </ul>
+            </div>
+          </li>
+
+
+          <li><a href="file:///D:/Studying/Projects/web%20project/aboutUs.html" class="nav-link px-2 text-light mt-2">About Us</a></li>
+          <li><a href="file:///D:/Studying/Projects/web%20project/contactus.html" class="nav-link px-2 text-light mt-2">Contact Us</a></li>
+          <li><a id="scrol_to" class="nav-link px-2 text-light btn mt-2" href="file:///D:/Studying/Projects/web%20project/index.html#faq">FAQs</a></li>
+
+        </ul>
+        <div class="text-end">
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a class="btn btn-primary" href="file:///D:/Studying/Projects/web%20project/signup.html" role="button">Sign up</a></li>
+            <li><a href="file:///D:/Studying/Projects/web%20project/cart.html" class="nav-link px-2 text-light mt-2"><i class="bi bi-cart3"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!------------>
+
+  <!--log in form-->
+  <div class="d-flex justify-content-center">
+    <div class="ms-5 mb-5 mt-3">
+      <img src="./Gamec_files/Let&#39;sPlay.jpg" class="img-fluid" alt="welcome">
+    </div>
+
+    <div class="mb-5 mt-5 me-3">
+        <div class="formlayout rounded w-50 h-75">
+          <div class="h2 mb-4 text-white text-center"><strong>Hello Again!</strong></div>
+          <form class="row g-3" action="file:///D:/Studying/Projects/web%20project/login.html" method="get" onsubmit="return validateLogin(this)">
+
+            <div class="col-12 m-2">
+              <label for="email" class="form-label text-white">Email<span class="asteric">*</span></label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <div id="emailError"></div>
+            </div>
+
+            <div class="col-12 m-2">
+              <label for="password" class="form-label text-white">Password<span class="asteric">*</span></label>
+              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              <div id="passwordError"></div>
+            </div>
+            <div class="justify-content-center">
+              <div class="col-12 mt-3">
+                <div class="d-flex justify-content-center">
+                  <div class="p-2 mt-3"><button type="submit" class="btn btn-primary mx-2">Login</button></div>
+                  <div class="p-2 mt-3"><a href="file:///D:/Studying/Projects/web%20project/signup.html"><button type="button" class="mx-2 btn btn-outline-primary">Register</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-about">
+            <div class="footer-logo">
+              <a href="file:///D:/Studying/Projects/web%20project/index.html"><img src="./Gamec_files/logo.png" alt="logo" width="50%"></a>
+            </div>
+            <p>payment methods</p>
+            <a href="file:///D:/Studying/Projects/web%20project/login.html#"><img src="./Gamec_files/payment.png" alt="logo" width="30%"></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-wedget">
+            <h6>shopping</h6>
+            <ul>
+              <li><a href="file:///D:/Studying/Projects/web%20project/login.html#">Games </a></li>
+              <li><a href="file:///D:/Studying/Projects/web%20project/login.html#"> trending Games </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-wedget">
+            <h6>LINKS</h6>
+            <ul>
+              <li><a href="file:///D:/Studying/Projects/web%20project/login.html#">Contact us</a></li>
+              <li><a href="file:///D:/Studying/Projects/web%20project/login.html#"> Payment methods </a></li>
+              <li><a href="file:///D:/Studying/Projects/web%20project/login.html#"> Return and Exchanges </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-wedget">
+            <h6>Newsletter</h6>
+            <div class="footer-newslatter">
+              <p class="footertext">Be the first to know about new arrivals,sales &amp; promos!</p>
+              <form action="file:///D:/Studying/Projects/web%20project/login.html#">
+                <input type="text" class="footeremail" placeholder="Your Email">
+                <button type="submit"><span><i class="fa fa-envelope" arial-hidden="true"></i></span> submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="footer-copyright-text">
+            <p class="footertext"> Copyright © 2023 All rights reserved | This website is made with love <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="file:///D:/Studying/Projects/web%20project/aboutUs.html">Gamec Group</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!---------------->
+  <!-- Scripts -->
+  <script src="./Gamec_files/popper.min.js(1).download" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="file:///D:/Studying/Projects/web%20project/src/js/bootstrap.min.js"></script>
+  <script src="./Gamec_files/bootstrap.bundle.min.js.download" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="./Gamec_files/FQAs.js.download"></script>
+  <script defer="" src="./Gamec_files/validations.js.download"></script>
+
+
+
+
+
+
+</body></html>

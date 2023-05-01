@@ -4,9 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.bg{
-    background-color: #212529;
-}
 
 .menu input {
     margin-left: 10px;
@@ -193,39 +190,30 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
-
+.bg{
+    background-color: #212529;
+}
 /*form*/
-.bgimg{
-    background-image: url("./../img/bkg.gif");
-    /* background-image: url("./../img/bg.gif");
-    background-position-x: 50%;
-    background-position-y: top; */
+.formlayout {
+    background-color: #212529;
+}
 
-    
-
+.containerlog {
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    margin: 20px 160px;
 }
 
 .asteric {
     color: red;
 }
 
-strong{
-    font-weight: bolder;
+.head3 {
+    font-size: 30px;
+    text-align: center;
 }
 
 .acc {
-    color: #f7f8f8bf;
-}
-
-.bullets {
-    display: flex;
-    align-items: center;
-}
-
-.err{
-    color: red;
-}
-
-.formlayout{
-    background-color: rgb(33, 37, 41,0.8);
+    color: #212529bf;
+    margin-left: 170px;
 }
