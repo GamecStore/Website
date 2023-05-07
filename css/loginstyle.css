@@ -11,7 +11,7 @@
 
 .list {
     font-size: 14px;
-} 
+}
 
 in style.css .user-pic {
     width: 40px;
@@ -46,16 +46,16 @@ input:focus {
 }
 
 
-.loginbtn:hover{
+.loginbtn:hover {
     text-decoration: underline #007bff;
 }
 
-.bgcolor{
+.bgcolor {
     background-color: #212529;
 }
 
-.lihov:hover{
-    background-color:black;
+.lihov:hover {
+    background-color: black;
     opacity: 0.3;
 }
 
@@ -72,7 +72,7 @@ input:focus {
     font-size: 14px;
 }
 
-.footertext{
+.footertext {
     font-size: 15px;
     font-family: "Nunito sans ,sans-serif";
     color: #3d3d3d;
@@ -190,13 +190,14 @@ a:hover a:focus {
     background: transparent;
     border: none;
 }
-.bg{
+
+.bg {
     background-color: #212529;
 }
 
 
 /*form*/
-.bgimg{
+.bgimg {
     background-image: url("./../img/log.gif");
     background-size: 60%;
     background-repeat: no-repeat;
@@ -206,7 +207,7 @@ a:hover a:focus {
 }
 
 .formlayout {
-    background-color: rgb(33, 37, 41,0.8)
+    background-color: rgb(33, 37, 41, 0.8)
 }
 
 .containerlog {
